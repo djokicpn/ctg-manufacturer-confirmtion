@@ -1,1 +1,0 @@
-# ctg-manufacturer-confirmtion
