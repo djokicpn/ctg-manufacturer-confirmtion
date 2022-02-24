@@ -1259,6 +1259,10 @@ class GetCustomizationType {
 	/**
 	 * @var string
 	 */
+	const customRecordCustomField = "customRecordCustomField";
+	/**
+	 * @var string
+	 */
 	const customRecordType = "customRecordType";
 	/**
 	 * @var string
@@ -3291,6 +3295,14 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const ACCESSING_FIELD_1_IS_NOT_ALLOWED = "ACCESSING_FIELD_1_IS_NOT_ALLOWED";
+	/**
+	 * @var string
+	 */
+	const ACCESSING_SUBLIST_1_IS_NOT_ALLOWED = "ACCESSING_SUBLIST_1_IS_NOT_ALLOWED";
+	/**
+	 * @var string
+	 */
 	const ACCESS_DENIED = "ACCESS_DENIED";
 	/**
 	 * @var string
@@ -3556,6 +3568,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const CAMPAIGN_SET_UP_REQD = "CAMPAIGN_SET_UP_REQD";
+	/**
+	 * @var string
+	 */
+	const CANNOT_CREATE_RCRD_DRFT_OF_EXISTING = "CANNOT_CREATE_RCRD_DRFT_OF_EXISTING";
 	/**
 	 * @var string
 	 */
@@ -4368,6 +4384,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const COMP_DELETED_OR_MERGED = "COMP_DELETED_OR_MERGED";
+	/**
+	 * @var string
+	 */
+	const CONCURRENCY_LIMIT_EXCEEDED = "CONCURRENCY_LIMIT_EXCEEDED";
 	/**
 	 * @var string
 	 */
@@ -5519,6 +5539,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const INVALID_CONTENT = "INVALID_CONTENT";
+	/**
+	 * @var string
+	 */
 	const INVALID_CONTENT_TYPE = "INVALID_CONTENT_TYPE";
 	/**
 	 * @var string
@@ -5703,6 +5727,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const INVALID_FIELD_ID = "INVALID_FIELD_ID";
+	/**
+	 * @var string
+	 */
 	const INVALID_FIELD_NAME_FOR_NULL = "INVALID_FIELD_NAME_FOR_NULL";
 	/**
 	 * @var string
@@ -5799,7 +5827,15 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const INVALID_HEADER = "INVALID_HEADER";
+	/**
+	 * @var string
+	 */
 	const INVALID_ID = "INVALID_ID";
+	/**
+	 * @var string
+	 */
+	const INVALID_ID_LENGTH = "INVALID_ID_LENGTH";
 	/**
 	 * @var string
 	 */
@@ -5951,7 +5987,15 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const INVALID_METHOD = "INVALID_METHOD";
+	/**
+	 * @var string
+	 */
 	const INVALID_NAME = "INVALID_NAME";
+	/**
+	 * @var string
+	 */
+	const INVALID_NAME_LENGTH = "INVALID_NAME_LENGTH";
 	/**
 	 * @var string
 	 */
@@ -5964,6 +6008,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const INVALID_OBJ = "INVALID_OBJ";
+	/**
+	 * @var string
+	 */
+	const INVALID_OFFSET = "INVALID_OFFSET";
 	/**
 	 * @var string
 	 */
@@ -6015,6 +6063,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const INVALID_PARAMETER = "INVALID_PARAMETER";
+	/**
+	 * @var string
+	 */
 	const INVALID_PARENT = "INVALID_PARENT";
 	/**
 	 * @var string
@@ -6028,6 +6080,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const INVALID_PASSWORD = "INVALID_PASSWORD";
+	/**
+	 * @var string
+	 */
+	const INVALID_PASSWORD_LENGTH = "INVALID_PASSWORD_LENGTH";
 	/**
 	 * @var string
 	 */
@@ -6395,6 +6451,18 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const INVALID_SHOPPER_CURRENCY = "INVALID_SHOPPER_CURRENCY";
+	/**
+	 * @var string
+	 */
+	const INVALID_SHOPPER_LOCALE = "INVALID_SHOPPER_LOCALE";
+	/**
+	 * @var string
+	 */
+	const INVALID_SHOPPER_SUBSIDIARY = "INVALID_SHOPPER_SUBSIDIARY";
+	/**
+	 * @var string
+	 */
 	const INVALID_SIGNATURE = "INVALID_SIGNATURE";
 	/**
 	 * @var string
@@ -6668,6 +6736,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const INVLAID_BOOLEAN_VALUE = "INVLAID_BOOLEAN_VALUE";
+	/**
+	 * @var string
+	 */
+	const INVOKING_METHOD_1_IS_NOT_ALLOWED = "INVOKING_METHOD_1_IS_NOT_ALLOWED";
 	/**
 	 * @var string
 	 */
@@ -7063,6 +7135,18 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const NONEXISTENT_EXTERNAL_ID = "NONEXISTENT_EXTERNAL_ID";
+	/**
+	 * @var string
+	 */
+	const NONEXISTENT_ID = "NONEXISTENT_ID";
+	/**
+	 * @var string
+	 */
+	const NONEXISTENT_SUBLIST_KEY = "NONEXISTENT_SUBLIST_KEY";
+	/**
+	 * @var string
+	 */
 	const NONMATCHING_EMAILS = "NONMATCHING_EMAILS";
 	/**
 	 * @var string
@@ -7088,6 +7172,14 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const NOT_AN_INVITEE = "NOT_AN_INVITEE";
+	/**
+	 * @var string
+	 */
+	const NOT_ENOUGH_PERMISSIONS = "NOT_ENOUGH_PERMISSIONS";
+	/**
+	 * @var string
+	 */
+	const NOT_IMPLEMENTED = "NOT_IMPLEMENTED";
 	/**
 	 * @var string
 	 */
@@ -7260,6 +7352,14 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const ONLY_ONE_WITHLD_ITEM_REQD = "ONLY_ONE_WITHLD_ITEM_REQD";
+	/**
+	 * @var string
+	 */
+	const ONLY_PERMITTED_FOR_LOGGED_IN_USER = "ONLY_PERMITTED_FOR_LOGGED_IN_USER";
+	/**
+	 * @var string
+	 */
+	const ONLY_PERMITTED_WHEN_NOT_LOGGED_IN = "ONLY_PERMITTED_WHEN_NOT_LOGGED_IN";
 	/**
 	 * @var string
 	 */
@@ -7503,6 +7603,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const PRIMARY_CURRENCY_CHANGE_NOT_ALLOWED = "PRIMARY_CURRENCY_CHANGE_NOT_ALLOWED";
+	/**
+	 * @var string
+	 */
 	const PRIVATE_RCRD_ACCESS_DISALLWD = "PRIVATE_RCRD_ACCESS_DISALLWD";
 	/**
 	 * @var string
@@ -7532,6 +7636,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const QTY_REQD = "QTY_REQD";
+	/**
+	 * @var string
+	 */
+	const QUANTITY_NOT_SPECIFIED_FOR_ITEM_1 = "QUANTITY_NOT_SPECIFIED_FOR_ITEM_1";
 	/**
 	 * @var string
 	 */
@@ -7643,6 +7751,14 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const REQUIRED_FEATURE_IS_NOT_ENABLED = "REQUIRED_FEATURE_IS_NOT_ENABLED";
+	/**
+	 * @var string
+	 */
+	const RESPONSE_GENERATION_FAILED = "RESPONSE_GENERATION_FAILED";
+	/**
+	 * @var string
+	 */
 	const REVERSAL_DATE_WARNING = "REVERSAL_DATE_WARNING";
 	/**
 	 * @var string
@@ -7676,6 +7792,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const SALES_DISCOUNT_ACCT_REQD = "SALES_DISCOUNT_ACCT_REQD";
+	/**
+	 * @var string
+	 */
+	const SALES_ORDER_EDIT_NOT_ALLOWED = "SALES_ORDER_EDIT_NOT_ALLOWED";
 	/**
 	 * @var string
 	 */
@@ -7760,6 +7880,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const SESSION_TIMED_OUT = "SESSION_TIMED_OUT";
+	/**
+	 * @var string
+	 */
+	const SETTING_VALUE_IS_FORBIDDEN = "SETTING_VALUE_IS_FORBIDDEN";
 	/**
 	 * @var string
 	 */
@@ -7852,6 +7976,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const SSS_DRIP_EMAIL_RAN_OUT_OF_COUPON_CODES = "SSS_DRIP_EMAIL_RAN_OUT_OF_COUPON_CODES";
+	/**
+	 * @var string
+	 */
+	const SSS_DUPLICATE_ALIAS = "SSS_DUPLICATE_ALIAS";
 	/**
 	 * @var string
 	 */
@@ -7963,6 +8091,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const SSS_INVALID_SUBLIST = "SSS_INVALID_SUBLIST";
+	/**
+	 * @var string
+	 */
 	const SSS_INVALID_SUBLIST_OPERATION = "SSS_INVALID_SUBLIST_OPERATION";
 	/**
 	 * @var string
@@ -8003,6 +8135,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const SSS_MISSING_ALIAS = "SSS_MISSING_ALIAS";
+	/**
+	 * @var string
+	 */
 	const SSS_MISSING_REQD_ARGUMENT = "SSS_MISSING_REQD_ARGUMENT";
 	/**
 	 * @var string
@@ -8020,6 +8156,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const SSS_RECORD_DOES_NOT_SATISFY_CONDITION = "SSS_RECORD_DOES_NOT_SATISFY_CONDITION";
+	/**
+	 * @var string
+	 */
+	const SSS_RECORD_DOES_NOT_SATISFY_CONDITION_1 = "SSS_RECORD_DOES_NOT_SATISFY_CONDITION_1";
 	/**
 	 * @var string
 	 */
@@ -8056,6 +8196,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const SSS_STACK_FRAME_DEPTH_EXCEEDED = "SSS_STACK_FRAME_DEPTH_EXCEEDED";
+	/**
+	 * @var string
+	 */
+	const SSS_STATEMENT_COUNT_EXCEEDED = "SSS_STATEMENT_COUNT_EXCEEDED";
 	/**
 	 * @var string
 	 */
@@ -8127,6 +8271,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const SUBSIDIARY_CHANGE_NOT_ALLOWED = "SUBSIDIARY_CHANGE_NOT_ALLOWED";
+	/**
+	 * @var string
+	 */
 	const SUBSIDIARY_MISMATCH = "SUBSIDIARY_MISMATCH";
 	/**
 	 * @var string
@@ -8180,6 +8328,14 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const TEMPLATE_NOT_FOUND = "TEMPLATE_NOT_FOUND";
+	/**
+	 * @var string
+	 */
+	const THE_MAX_QTY_FOR_ITEM_1_IS_2 = "THE_MAX_QTY_FOR_ITEM_1_IS_2";
+	/**
+	 * @var string
+	 */
+	const THE_MIN_QTY_FOR_ITEM_1_IS_2 = "THE_MIN_QTY_FOR_ITEM_1_IS_2";
 	/**
 	 * @var string
 	 */
@@ -8327,6 +8483,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const UNACCEPTABLE_HEADER_VALUE = "UNACCEPTABLE_HEADER_VALUE";
+	/**
+	 * @var string
+	 */
 	const UNAUTH_CAMPAIGN_RSPNS_RQST = "UNAUTH_CAMPAIGN_RSPNS_RQST";
 	/**
 	 * @var string
@@ -8356,6 +8516,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const UNEXPECTED_PROBLEM_LOADING_RECORD = "UNEXPECTED_PROBLEM_LOADING_RECORD";
+	/**
+	 * @var string
+	 */
+	const UNHANDLED_ERRORS_ON_RESTORE = "UNHANDLED_ERRORS_ON_RESTORE";
 	/**
 	 * @var string
 	 */
@@ -8427,7 +8591,23 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const UNSUPPORTED_FIELD_OPTION = "UNSUPPORTED_FIELD_OPTION";
+	/**
+	 * @var string
+	 */
+	const UNSUPPORTED_FIELD_VALUE = "UNSUPPORTED_FIELD_VALUE";
+	/**
+	 * @var string
+	 */
 	const UNSUPPORTED_METHOD = "UNSUPPORTED_METHOD";
+	/**
+	 * @var string
+	 */
+	const UNSUPPORTED_SUBLIST_FIELD_VALUE = "UNSUPPORTED_SUBLIST_FIELD_VALUE";
+	/**
+	 * @var string
+	 */
+	const UNSUPPORTED_VALUE_TYPE = "UNSUPPORTED_VALUE_TYPE";
 	/**
 	 * @var string
 	 */
@@ -8659,7 +8839,15 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const WOULD_TRANSFORM = "WOULD_TRANSFORM";
+	/**
+	 * @var string
+	 */
 	const WRITE_OFF_ACCT_REQD = "WRITE_OFF_ACCT_REQD";
+	/**
+	 * @var string
+	 */
+	const WRONG_DC_OR_VERSION = "WRONG_DC_OR_VERSION";
 	/**
 	 * @var string
 	 */
@@ -8810,40 +8998,6 @@ class FaultCodeType {
 	 * @var string
 	 */
 	const WS_REQUEST_BLOCKED = "WS_REQUEST_BLOCKED";
-}}
-
-if (!class_exists("Passport")) {
-/**
- * Passport
- */
-class Passport {
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $email;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $password;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $account;
-	/**
-	 * @access public
-	 * @var RecordRef
-	 */
-	public $role;
-
-	static $paramtypesmap = array(
-		"email" => "string",
-		"password" => "string",
-		"account" => "string",
-		"role" => "RecordRef",
-	);
 }}
 
 if (!class_exists("TokenPassportSignature")) {
@@ -11053,6 +11207,11 @@ class CurrencyRate extends Record {
 	public $effectiveDate;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $currencyRateType;
+	/**
+	 * @access public
 	 * @var string
 	 */
 	public $internalId;
@@ -11062,6 +11221,7 @@ class CurrencyRate extends Record {
 		"transactionCurrency" => "RecordRef",
 		"exchangeRate" => "float",
 		"effectiveDate" => "dateTime",
+		"currencyRateType" => "RecordRef",
 		"internalId" => "string",
 	);
 }}
@@ -15641,6 +15801,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _allocateOrders = "_allocateOrders";
+	/**
+	 * @var string
+	 */
 	const _allocationSchedules = "_allocationSchedules";
 	/**
 	 * @var string
@@ -15706,6 +15870,10 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _balanceLocationCostingGroupAccounts = "_balanceLocationCostingGroupAccounts";
+	/**
+	 * @var string
+	 */
+	const _balanceOverview = "_balanceOverview";
 	/**
 	 * @var string
 	 */
@@ -15789,6 +15957,14 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _bonus = "_bonus";
+	/**
+	 * @var string
+	 */
+	const _bonusTypes = "_bonusTypes";
+	/**
+	 * @var string
+	 */
 	const _budget = "_budget";
 	/**
 	 * @var string
@@ -15801,6 +15977,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _bulkTimeEntryModification = "_bulkTimeEntryModification";
+	/**
+	 * @var string
+	 */
 	const _calculateTime = "_calculateTime";
 	/**
 	 * @var string
@@ -15810,6 +15990,22 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _campaignHistory = "_campaignHistory";
+	/**
+	 * @var string
+	 */
+	const _cardholderAuthentication = "_cardholderAuthentication";
+	/**
+	 * @var string
+	 */
+	const _cardholderAuthenticationEvent = "_cardholderAuthenticationEvent";
+	/**
+	 * @var string
+	 */
+	const _cardholderAuthenticationEvents = "_cardholderAuthenticationEvents";
+	/**
+	 * @var string
+	 */
+	const _cardholderAuthentications = "_cardholderAuthentications";
 	/**
 	 * @var string
 	 */
@@ -15989,7 +16185,7 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
-	const _createJobsFromSalesTransactions = "_createJobsFromSalesTransactions";
+	const _createProjectsFromSalesTransactions = "_createProjectsFromSalesTransactions";
 	/**
 	 * @var string
 	 */
@@ -16022,6 +16218,10 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _crmLists = "_crmLists";
+	/**
+	 * @var string
+	 */
+	const _crossChargeJournal = "_crossChargeJournal";
 	/**
 	 * @var string
 	 */
@@ -16102,6 +16302,10 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _customers = "_customers";
+	/**
+	 * @var string
+	 */
+	const _customerSegmentsManager = "_customerSegmentsManager";
 	/**
 	 * @var string
 	 */
@@ -16265,7 +16469,7 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
-	const _editBankingInformation = "_editBankingInformation";
+	const _earliestAvailability = "_earliestAvailability";
 	/**
 	 * @var string
 	 */
@@ -16313,7 +16517,7 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
-	const _employeeChangeType = "_employeeChangeType";
+	const _employeeChangeRequestType = "_employeeChangeRequestType";
 	/**
 	 * @var string
 	 */
@@ -16426,6 +16630,10 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _expenseReport = "_expenseReport";
+	/**
+	 * @var string
+	 */
+	const _expenseReportPolicies = "_expenseReportPolicies";
 	/**
 	 * @var string
 	 */
@@ -16597,6 +16805,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _importedEmployeeExpenses = "_importedEmployeeExpenses";
+	/**
+	 * @var string
+	 */
 	const _importOnlineBankingFile = "_importOnlineBankingFile";
 	/**
 	 * @var string
@@ -16693,6 +16905,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _itemCollection = "_itemCollection";
+	/**
+	 * @var string
+	 */
 	const _itemDemandPlan = "_itemDemandPlan";
 	/**
 	 * @var string
@@ -16741,11 +16957,15 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
-	const _jobs = "_jobs";
+	const _journalApproval = "_journalApproval";
 	/**
 	 * @var string
 	 */
-	const _journalApproval = "_journalApproval";
+	const _keyAccess = "_keyAccess";
+	/**
+	 * @var string
+	 */
+	const _keyManagement = "_keyManagement";
 	/**
 	 * @var string
 	 */
@@ -16758,6 +16978,10 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _kudos = "_kudos";
+	/**
+	 * @var string
+	 */
+	const _laborCosting = "_laborCosting";
 	/**
 	 * @var string
 	 */
@@ -16801,6 +17025,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _logInUsingOauth20accessTokens = "_logInUsingOauth20accessTokens";
+	/**
+	 * @var string
+	 */
 	const _longTermLiabilityRegisters = "_longTermLiabilityRegisters";
 	/**
 	 * @var string
@@ -16817,7 +17045,15 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _manageCrossChargeAutomation = "_manageCrossChargeAutomation";
+	/**
+	 * @var string
+	 */
 	const _manageCustomPermissions = "_manageCustomPermissions";
+	/**
+	 * @var string
+	 */
+	const _manageCustomRestrictions = "_manageCustomRestrictions";
 	/**
 	 * @var string
 	 */
@@ -16842,6 +17078,10 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _manufacturingCostTemplate = "_manufacturingCostTemplate";
+	/**
+	 * @var string
+	 */
+	const _manufacturingPreferences = "_manufacturingPreferences";
 	/**
 	 * @var string
 	 */
@@ -16885,6 +17125,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _materialRequirementsPlanning = "_materialRequirementsPlanning";
+	/**
+	 * @var string
+	 */
 	const _mediaFolders = "_mediaFolders";
 	/**
 	 * @var string
@@ -16913,6 +17157,14 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _nettingSettlement = "_nettingSettlement";
+	/**
+	 * @var string
+	 */
+	const _nettingSettlementApproval = "_nettingSettlementApproval";
+	/**
+	 * @var string
+	 */
 	const _netWorth = "_netWorth";
 	/**
 	 * @var string
@@ -16937,6 +17189,14 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _oauth20authorizedApplicationsManagement = "_oauth20authorizedApplicationsManagement";
+	/**
+	 * @var string
+	 */
+	const _oaxConnectorAdministrator = "_oaxConnectorAdministrator";
+	/**
+	 * @var string
+	 */
 	const _onlineCaseForm = "_onlineCaseForm";
 	/**
 	 * @var string
@@ -16949,11 +17209,27 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _openidConnectOidcSingleSignOn = "_openidConnectOidcSingleSignOn";
+	/**
+	 * @var string
+	 */
 	const _openidSingleSignOn = "_openidSingleSignOn";
 	/**
 	 * @var string
 	 */
 	const _opportunity = "_opportunity";
+	/**
+	 * @var string
+	 */
+	const _orderAllocationStrategy = "_orderAllocationStrategy";
+	/**
+	 * @var string
+	 */
+	const _orderPromising = "_orderPromising";
+	/**
+	 * @var string
+	 */
+	const _orderReservation = "_orderReservation";
 	/**
 	 * @var string
 	 */
@@ -17145,6 +17421,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _personalBankingInformation = "_personalBankingInformation";
+	/**
+	 * @var string
+	 */
 	const _phasedProcesses = "_phasedProcesses";
 	/**
 	 * @var string
@@ -17189,6 +17469,14 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _priceBooks = "_priceBooks";
+	/**
+	 * @var string
+	 */
+	const _pricePlans = "_pricePlans";
+	/**
+	 * @var string
+	 */
 	const _printChecksAndForms = "_printChecksAndForms";
 	/**
 	 * @var string
@@ -17209,6 +17497,14 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _projectBudget = "_projectBudget";
+	/**
+	 * @var string
+	 */
+	const _projectIntercompanyCrossChargeRequest = "_projectIntercompanyCrossChargeRequest";
+	/**
+	 * @var string
+	 */
 	const _projectProfitability = "_projectProfitability";
 	/**
 	 * @var string
@@ -17222,6 +17518,10 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _projectRevenueRules = "_projectRevenueRules";
+	/**
+	 * @var string
+	 */
+	const _projects = "_projects";
 	/**
 	 * @var string
 	 */
@@ -17313,11 +17613,23 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _reallocateOrderItem = "_reallocateOrderItem";
+	/**
+	 * @var string
+	 */
 	const _receiveOrder = "_receiveOrder";
 	/**
 	 * @var string
 	 */
 	const _receiveReturns = "_receiveReturns";
+	/**
+	 * @var string
+	 */
+	const _recognitionTreatment = "_recognitionTreatment";
+	/**
+	 * @var string
+	 */
+	const _recognitionTreatmentRule = "_recognitionTreatmentRule";
 	/**
 	 * @var string
 	 */
@@ -17342,6 +17654,14 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _relatedItems = "_relatedItems";
+	/**
+	 * @var string
+	 */
+	const _removePersonalInformationCreate = "_removePersonalInformationCreate";
+	/**
+	 * @var string
+	 */
+	const _removePersonalInformationRun = "_removePersonalInformationRun";
 	/**
 	 * @var string
 	 */
@@ -17477,6 +17797,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _salesChannel = "_salesChannel";
+	/**
+	 * @var string
+	 */
 	const _salesForceAutomation = "_salesForceAutomation";
 	/**
 	 * @var string
@@ -17525,6 +17849,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _sentEmail = "_sentEmail";
+	/**
+	 * @var string
+	 */
 	const _setUpAccounting = "_setUpAccounting";
 	/**
 	 * @var string
@@ -17569,6 +17897,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _setUpOpenidConnectOidcSingleSignOn = "_setUpOpenidConnectOidcSingleSignOn";
+	/**
+	 * @var string
+	 */
 	const _setUpOpenidSingleSignOn = "_setUpOpenidSingleSignOn";
 	/**
 	 * @var string
@@ -17589,7 +17921,7 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
-	const _setUpWebServices = "_setUpWebServices";
+	const _setUpSoapWebServices = "_setUpSoapWebServices";
 	/**
 	 * @var string
 	 */
@@ -17625,6 +17957,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _soapWebServices = "_soapWebServices";
+	/**
+	 * @var string
+	 */
 	const _standardCostVersion = "_standardCostVersion";
 	/**
 	 * @var string
@@ -17657,6 +17993,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _subscriptionChangeOrders = "_subscriptionChangeOrders";
+	/**
+	 * @var string
+	 */
 	const _subscriptionPlan = "_subscriptionPlan";
 	/**
 	 * @var string
@@ -17669,7 +18009,15 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
-	const _subsidiaryTaxEngineSelection = "_subsidiaryTaxEngineSelection";
+	const _subsidiaryHierarchyModification = "_subsidiaryHierarchyModification";
+	/**
+	 * @var string
+	 */
+	const _subsidiarySettingsManager = "_subsidiarySettingsManager";
+	/**
+	 * @var string
+	 */
+	const _subsidiaryTaxRegistrationsTab = "_subsidiaryTaxRegistrationsTab";
 	/**
 	 * @var string
 	 */
@@ -17718,6 +18066,10 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _suitetaxMigration = "_suitetaxMigration";
+	/**
+	 * @var string
+	 */
+	const _supplyAllocationSetup = "_supplyAllocationSetup";
 	/**
 	 * @var string
 	 */
@@ -17773,6 +18125,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _systemJournal = "_systemJournal";
+	/**
+	 * @var string
+	 */
 	const _systemStatus = "_systemStatus";
 	/**
 	 * @var string
@@ -17797,7 +18153,7 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
-	const _taxItems = "_taxItems";
+	const _taxRecords = "_taxRecords";
 	/**
 	 * @var string
 	 */
@@ -17858,6 +18214,10 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _trackTime = "_trackTime";
+	/**
+	 * @var string
+	 */
+	const _transactionAccountingRules = "_transactionAccountingRules";
 	/**
 	 * @var string
 	 */
@@ -17925,6 +18285,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _unlockedTimePeriod = "_unlockedTimePeriod";
+	/**
+	 * @var string
+	 */
 	const _updatePrices = "_updatePrices";
 	/**
 	 * @var string
@@ -17961,11 +18325,23 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
-	const _vendorInTransitPaymentApproval = "_vendorInTransitPaymentApproval";
+	const _vendorPaymentApproval = "_vendorPaymentApproval";
 	/**
 	 * @var string
 	 */
 	const _vendorPaymentStatus = "_vendorPaymentStatus";
+	/**
+	 * @var string
+	 */
+	const _vendorPrepayment = "_vendorPrepayment";
+	/**
+	 * @var string
+	 */
+	const _vendorPrepaymentApplication = "_vendorPrepaymentApplication";
+	/**
+	 * @var string
+	 */
+	const _vendorPrepaymentApproval = "_vendorPrepaymentApproval";
 	/**
 	 * @var string
 	 */
@@ -18005,19 +18381,19 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _viewPaymentResultPreviews = "_viewPaymentResultPreviews";
+	/**
+	 * @var string
+	 */
+	const _viewSoapWebServicesLogs = "_viewSoapWebServicesLogs";
+	/**
+	 * @var string
+	 */
 	const _viewUnencryptedCreditCards = "_viewUnencryptedCreditCards";
 	/**
 	 * @var string
 	 */
-	const _viewWebServicesLogs = "_viewWebServicesLogs";
-	/**
-	 * @var string
-	 */
 	const _wave = "_wave";
-	/**
-	 * @var string
-	 */
-	const _webServices = "_webServices";
 	/**
 	 * @var string
 	 */
@@ -18038,6 +18414,14 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _webStoreReport = "_webStoreReport";
+	/**
+	 * @var string
+	 */
+	const _workAssignments = "_workAssignments";
+	/**
+	 * @var string
+	 */
+	const _workBreakdownStructure = "_workBreakdownStructure";
 	/**
 	 * @var string
 	 */
@@ -20848,6 +21232,11 @@ class CustomerSearchBasic extends SearchRecordBasic {
 	public $daysOverdue;
 	/**
 	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $defaultAllocationStrategy;
+	/**
+	 * @access public
 	 * @var SearchDoubleField
 	 */
 	public $defaultOrderPriority;
@@ -21440,6 +21829,7 @@ class CustomerSearchBasic extends SearchRecordBasic {
 		"dateClosed" => "SearchDateField",
 		"dateCreated" => "SearchDateField",
 		"daysOverdue" => "SearchLongField",
+		"defaultAllocationStrategy" => "SearchMultiSelectField",
 		"defaultOrderPriority" => "SearchDoubleField",
 		"defaultTaxReg" => "SearchMultiSelectField",
 		"defaultTaxRegText" => "SearchStringField",
@@ -21872,6 +22262,11 @@ class CustomerSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnLongField[]
 	 */
 	public $daysOverdue;
+	/**
+	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $defaultAllocationStrategy;
 	/**
 	 * @access public
 	 * @var SearchColumnDoubleField[]
@@ -22512,6 +22907,7 @@ class CustomerSearchRowBasic extends SearchRowBasic {
 		"dateClosed" => "SearchColumnDateField[]",
 		"dateCreated" => "SearchColumnDateField[]",
 		"daysOverdue" => "SearchColumnLongField[]",
+		"defaultAllocationStrategy" => "SearchColumnSelectField[]",
 		"defaultOrderPriority" => "SearchColumnDoubleField[]",
 		"defaultTaxReg" => "SearchColumnStringField[]",
 		"depositBalance" => "SearchColumnDoubleField[]",
@@ -23787,11 +24183,6 @@ class OpportunitySearchRowBasic extends SearchRowBasic {
 	public $department;
 	/**
 	 * @access public
-	 * @var SearchColumnEnumSelectField[]
-	 */
-	public $status;
-	/**
-	 * @access public
 	 * @var SearchColumnSelectField[]
 	 */
 	public $entity;
@@ -23952,6 +24343,11 @@ class OpportunitySearchRowBasic extends SearchRowBasic {
 	public $salesTeamRole;
 	/**
 	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $status;
+	/**
+	 * @access public
 	 * @var SearchColumnSelectField[]
 	 */
 	public $subsidiary;
@@ -24038,7 +24434,6 @@ class OpportunitySearchRowBasic extends SearchRowBasic {
 		"daysToClose" => "SearchColumnLongField[]",
 		"decisionMaker" => "SearchColumnSelectField[]",
 		"department" => "SearchColumnSelectField[]",
-		"status" => "SearchColumnEnumSelectField[]",
 		"entity" => "SearchColumnSelectField[]",
 		"entityStatus" => "SearchColumnSelectField[]",
 		"estimatedBudget" => "SearchColumnDoubleField[]",
@@ -24071,6 +24466,7 @@ class OpportunitySearchRowBasic extends SearchRowBasic {
 		"salesRep" => "SearchColumnSelectField[]",
 		"salesTeamMember" => "SearchColumnSelectField[]",
 		"salesTeamRole" => "SearchColumnSelectField[]",
+		"status" => "SearchColumnEnumSelectField[]",
 		"subsidiary" => "SearchColumnSelectField[]",
 		"taxPeriod" => "SearchColumnSelectField[]",
 		"title" => "SearchColumnStringField[]",
@@ -24235,6 +24631,11 @@ class EmployeeSearchBasic extends SearchRecordBasic {
 	public $concurrentWebServicesUser;
 	/**
 	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $corporateCardProfile;
+	/**
+	 * @access public
 	 * @var SearchEnumMultiSelectField
 	 */
 	public $country;
@@ -24300,6 +24701,11 @@ class EmployeeSearchBasic extends SearchRecordBasic {
 	public $email;
 	/**
 	 * @access public
+	 * @var SearchStringField
+	 */
+	public $embossedName;
+	/**
+	 * @access public
 	 * @var SearchMultiSelectField
 	 */
 	public $employeeStatus;
@@ -24333,6 +24739,11 @@ class EmployeeSearchBasic extends SearchRecordBasic {
 	 * @var SearchMultiSelectField
 	 */
 	public $expenseReportCurrency;
+	/**
+	 * @access public
+	 * @var SearchDateField
+	 */
+	public $expiration;
 	/**
 	 * @access public
 	 * @var SearchMultiSelectField
@@ -24748,6 +25159,7 @@ class EmployeeSearchBasic extends SearchRecordBasic {
 		"commissionPlan" => "SearchMultiSelectField",
 		"compensationCurrency" => "SearchEnumMultiSelectField",
 		"concurrentWebServicesUser" => "SearchBooleanField",
+		"corporateCardProfile" => "SearchMultiSelectField",
 		"country" => "SearchEnumMultiSelectField",
 		"county" => "SearchStringField",
 		"dateCreated" => "SearchDateField",
@@ -24761,6 +25173,7 @@ class EmployeeSearchBasic extends SearchRecordBasic {
 		"education" => "SearchMultiSelectField",
 		"eligibleForCommission" => "SearchBooleanField",
 		"email" => "SearchStringField",
+		"embossedName" => "SearchStringField",
 		"employeeStatus" => "SearchMultiSelectField",
 		"employeeType" => "SearchMultiSelectField",
 		"employeeTypeKpi" => "SearchBooleanField",
@@ -24768,6 +25181,7 @@ class EmployeeSearchBasic extends SearchRecordBasic {
 		"ethnicity" => "SearchMultiSelectField",
 		"expenseLimit" => "SearchDoubleField",
 		"expenseReportCurrency" => "SearchMultiSelectField",
+		"expiration" => "SearchDateField",
 		"externalId" => "SearchMultiSelectField",
 		"externalIdString" => "SearchStringField",
 		"fax" => "SearchStringField",
@@ -25075,6 +25489,11 @@ class EmployeeSearchRowBasic extends SearchRowBasic {
 	public $concurrentWebServicesUser;
 	/**
 	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $corporateCardProfile;
+	/**
+	 * @access public
 	 * @var SearchColumnEnumSelectField[]
 	 */
 	public $country;
@@ -25120,6 +25539,11 @@ class EmployeeSearchRowBasic extends SearchRowBasic {
 	public $email;
 	/**
 	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $embossedName;
+	/**
+	 * @access public
 	 * @var SearchColumnSelectField[]
 	 */
 	public $employeeStatus;
@@ -25153,6 +25577,11 @@ class EmployeeSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnSelectField[]
 	 */
 	public $expenseReportCurrency;
+	/**
+	 * @access public
+	 * @var SearchColumnDateField[]
+	 */
+	public $expiration;
 	/**
 	 * @access public
 	 * @var SearchColumnSelectField[]
@@ -25227,12 +25656,12 @@ class EmployeeSearchRowBasic extends SearchRowBasic {
 	 * @access public
 	 * @var SearchColumnBooleanField[]
 	 */
-	public $isJobResource;
+	public $isJobManager;
 	/**
 	 * @access public
 	 * @var SearchColumnBooleanField[]
 	 */
-	public $isJobManager;
+	public $isJobResource;
 	/**
 	 * @access public
 	 * @var SearchColumnBooleanField[]
@@ -25649,6 +26078,7 @@ class EmployeeSearchRowBasic extends SearchRowBasic {
 		"comments" => "SearchColumnStringField[]",
 		"compensationCurrency" => "SearchColumnEnumSelectField[]",
 		"concurrentWebServicesUser" => "SearchColumnBooleanField[]",
+		"corporateCardProfile" => "SearchColumnSelectField[]",
 		"country" => "SearchColumnEnumSelectField[]",
 		"countryCode" => "SearchColumnStringField[]",
 		"dateCreated" => "SearchColumnDateField[]",
@@ -25658,6 +26088,7 @@ class EmployeeSearchRowBasic extends SearchRowBasic {
 		"department" => "SearchColumnSelectField[]",
 		"eligibleForCommission" => "SearchColumnBooleanField[]",
 		"email" => "SearchColumnStringField[]",
+		"embossedName" => "SearchColumnStringField[]",
 		"employeeStatus" => "SearchColumnSelectField[]",
 		"employeeType" => "SearchColumnSelectField[]",
 		"entityId" => "SearchColumnStringField[]",
@@ -25665,6 +26096,7 @@ class EmployeeSearchRowBasic extends SearchRowBasic {
 		"ethnicity" => "SearchColumnSelectField[]",
 		"expenseLimit" => "SearchColumnDoubleField[]",
 		"expenseReportCurrency" => "SearchColumnSelectField[]",
+		"expiration" => "SearchColumnDateField[]",
 		"externalId" => "SearchColumnSelectField[]",
 		"fax" => "SearchColumnStringField[]",
 		"firstName" => "SearchColumnStringField[]",
@@ -25679,8 +26111,8 @@ class EmployeeSearchRowBasic extends SearchRowBasic {
 		"isDefaultBilling" => "SearchColumnBooleanField[]",
 		"isDefaultShipping" => "SearchColumnBooleanField[]",
 		"isInactive" => "SearchColumnBooleanField[]",
-		"isJobResource" => "SearchColumnBooleanField[]",
 		"isJobManager" => "SearchColumnBooleanField[]",
+		"isJobResource" => "SearchColumnBooleanField[]",
 		"isSalesRep" => "SearchColumnBooleanField[]",
 		"isSupportRep" => "SearchColumnBooleanField[]",
 		"isTemplate" => "SearchColumnBooleanField[]",
@@ -27066,6 +27498,11 @@ class AccountSearchBasic extends SearchRecordBasic {
 	public $description;
 	/**
 	 * @access public
+	 * @var SearchStringField
+	 */
+	public $displayName;
+	/**
+	 * @access public
 	 * @var SearchMultiSelectField
 	 */
 	public $externalId;
@@ -27156,6 +27593,7 @@ class AccountSearchBasic extends SearchRecordBasic {
 		"cashFlowRateType" => "SearchEnumMultiSelectField",
 		"category1099Misc" => "SearchMultiSelectField",
 		"description" => "SearchStringField",
+		"displayName" => "SearchStringField",
 		"externalId" => "SearchMultiSelectField",
 		"externalIdString" => "SearchStringField",
 		"generalRateType" => "SearchEnumMultiSelectField",
@@ -27206,6 +27644,11 @@ class AccountSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnStringField[]
 	 */
 	public $description;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $displayName;
 	/**
 	 * @access public
 	 * @var SearchColumnSelectField[]
@@ -27283,6 +27726,7 @@ class AccountSearchRowBasic extends SearchRowBasic {
 		"cashFlowRateType" => "SearchColumnEnumSelectField[]",
 		"category1099Misc" => "SearchColumnSelectField[]",
 		"description" => "SearchColumnStringField[]",
+		"displayName" => "SearchColumnStringField[]",
 		"externalId" => "SearchColumnSelectField[]",
 		"generalRateType" => "SearchColumnEnumSelectField[]",
 		"internalId" => "SearchColumnSelectField[]",
@@ -28283,6 +28727,16 @@ class LocationSearchBasic extends SearchRecordBasic {
 	public $sameDayPickupCutOffTime;
 	/**
 	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $soPredConfidence;
+	/**
+	 * @access public
+	 * @var SearchLongField
+	 */
+	public $soPredictedDays;
+	/**
+	 * @access public
 	 * @var SearchDateField
 	 */
 	public $startTime;
@@ -28367,6 +28821,8 @@ class LocationSearchBasic extends SearchRecordBasic {
 		"nextPickupCutOffTime" => "SearchDateField",
 		"phone" => "SearchStringField",
 		"sameDayPickupCutOffTime" => "SearchDateField",
+		"soPredConfidence" => "SearchDoubleField",
+		"soPredictedDays" => "SearchLongField",
 		"startTime" => "SearchDateField",
 		"state" => "SearchStringField",
 		"storePickupBufferStock" => "SearchDoubleField",
@@ -28552,6 +29008,16 @@ class LocationSearchRowBasic extends SearchRowBasic {
 	public $sameDayPickupCutOffTime;
 	/**
 	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $soPredConfidence;
+	/**
+	 * @access public
+	 * @var SearchColumnLongField[]
+	 */
+	public $soPredictedDays;
+	/**
+	 * @access public
 	 * @var SearchColumnDateField[]
 	 */
 	public $startTime;
@@ -28635,6 +29101,8 @@ class LocationSearchRowBasic extends SearchRowBasic {
 		"nextPickupCutOffTime" => "SearchColumnDateField[]",
 		"phone" => "SearchColumnStringField[]",
 		"sameDayPickupCutOffTime" => "SearchColumnDateField[]",
+		"soPredConfidence" => "SearchColumnDoubleField[]",
+		"soPredictedDays" => "SearchColumnLongField[]",
 		"startTime" => "SearchColumnDateField[]",
 		"state" => "SearchColumnStringField[]",
 		"storePickupBufferStock" => "SearchColumnDoubleField[]",
@@ -28784,6 +29252,16 @@ class TransactionSearchBasic extends SearchRecordBasic {
 	 * @var SearchMultiSelectField
 	 */
 	public $acctCorpCardExp;
+	/**
+	 * @access public
+	 * @var SearchDateField
+	 */
+	public $actualProductionEndDate;
+	/**
+	 * @access public
+	 * @var SearchDateField
+	 */
+	public $actualProductionStartDate;
 	/**
 	 * @access public
 	 * @var SearchDateField
@@ -29938,6 +30416,11 @@ class TransactionSearchBasic extends SearchRecordBasic {
 	 * @access public
 	 * @var SearchBooleanField
 	 */
+	public $policyViolated;
+	/**
+	 * @access public
+	 * @var SearchBooleanField
+	 */
 	public $posting;
 	/**
 	 * @access public
@@ -30288,17 +30771,17 @@ class TransactionSearchBasic extends SearchRecordBasic {
 	 * @access public
 	 * @var SearchMultiSelectField
 	 */
-	public $subsidiaryTaxRegNum;
-	/**
-	 * @access public
-	 * @var SearchMultiSelectField
-	 */
 	public $subscriptionLine;
 	/**
 	 * @access public
 	 * @var SearchMultiSelectField
 	 */
 	public $subsidiary;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $subsidiaryTaxRegNum;
 	/**
 	 * @access public
 	 * @var SearchMultiSelectField
@@ -30529,6 +31012,8 @@ class TransactionSearchBasic extends SearchRecordBasic {
 		"account" => "SearchMultiSelectField",
 		"accountType" => "SearchEnumMultiSelectField",
 		"acctCorpCardExp" => "SearchMultiSelectField",
+		"actualProductionEndDate" => "SearchDateField",
+		"actualProductionStartDate" => "SearchDateField",
 		"actualShipDate" => "SearchDateField",
 		"altSalesAmount" => "SearchDoubleField",
 		"altSalesNetAmount" => "SearchDoubleField",
@@ -30759,6 +31244,7 @@ class TransactionSearchBasic extends SearchRecordBasic {
 		"payPalTranId" => "SearchStringField",
 		"pnRefNum" => "SearchStringField",
 		"poAsText" => "SearchStringField",
+		"policyViolated" => "SearchBooleanField",
 		"posting" => "SearchBooleanField",
 		"postingPeriod" => "RecordRef",
 		"postingPeriodRelative" => "PostingPeriodDate",
@@ -30829,9 +31315,9 @@ class TransactionSearchBasic extends SearchRecordBasic {
 		"statistical" => "SearchBooleanField",
 		"status" => "SearchEnumMultiSelectField",
 		"subscription" => "SearchMultiSelectField",
-		"subsidiaryTaxRegNum" => "SearchMultiSelectField",
 		"subscriptionLine" => "SearchMultiSelectField",
 		"subsidiary" => "SearchMultiSelectField",
+		"subsidiaryTaxRegNum" => "SearchMultiSelectField",
 		"taxItem" => "SearchMultiSelectField",
 		"taxLine" => "SearchBooleanField",
 		"taxPeriod" => "RecordRef",
@@ -30905,6 +31391,16 @@ class TransactionSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnSelectField[]
 	 */
 	public $acctCorpCardExp;
+	/**
+	 * @access public
+	 * @var SearchColumnDateField[]
+	 */
+	public $actualProductionEndDate;
+	/**
+	 * @access public
+	 * @var SearchColumnDateField[]
+	 */
+	public $actualProductionStartDate;
 	/**
 	 * @access public
 	 * @var SearchColumnDateField[]
@@ -32067,6 +32563,11 @@ class TransactionSearchRowBasic extends SearchRowBasic {
 	public $pnRefNum;
 	/**
 	 * @access public
+	 * @var SearchColumnBooleanField[]
+	 */
+	public $policyViolated;
+	/**
+	 * @access public
 	 * @var SearchColumnDoubleField[]
 	 */
 	public $poRate;
@@ -32210,6 +32711,21 @@ class TransactionSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnDateField[]
 	 */
 	public $requestedDate;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $requiredDepositAmount;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $requiredDepositDue;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $requiredDepositPercentage;
 	/**
 	 * @access public
 	 * @var SearchColumnEnumSelectField[]
@@ -32681,6 +33197,8 @@ class TransactionSearchRowBasic extends SearchRowBasic {
 		"account" => "SearchColumnSelectField[]",
 		"accountType" => "SearchColumnEnumSelectField[]",
 		"acctCorpCardExp" => "SearchColumnSelectField[]",
+		"actualProductionEndDate" => "SearchColumnDateField[]",
+		"actualProductionStartDate" => "SearchColumnDateField[]",
 		"actualShipDate" => "SearchColumnDateField[]",
 		"altSalesAmount" => "SearchColumnDoubleField[]",
 		"altSalesNetAmount" => "SearchColumnDoubleField[]",
@@ -32913,6 +33431,7 @@ class TransactionSearchRowBasic extends SearchRowBasic {
 		"payPalTranId" => "SearchColumnStringField[]",
 		"payrollBatch" => "SearchColumnStringField[]",
 		"pnRefNum" => "SearchColumnStringField[]",
+		"policyViolated" => "SearchColumnBooleanField[]",
 		"poRate" => "SearchColumnDoubleField[]",
 		"posting" => "SearchColumnBooleanField[]",
 		"postingPeriod" => "SearchColumnSelectField[]",
@@ -32942,6 +33461,9 @@ class TransactionSearchRowBasic extends SearchRowBasic {
 		"recurWeeklyTotal" => "SearchColumnDoubleField[]",
 		"refNumber" => "SearchColumnLongField[]",
 		"requestedDate" => "SearchColumnDateField[]",
+		"requiredDepositAmount" => "SearchColumnDoubleField[]",
+		"requiredDepositDue" => "SearchColumnDoubleField[]",
+		"requiredDepositPercentage" => "SearchColumnDoubleField[]",
 		"revCommitStatus" => "SearchColumnEnumSelectField[]",
 		"revCommittingTransaction" => "SearchColumnSelectField[]",
 		"revenueStatus" => "SearchColumnEnumSelectField[]",
@@ -33162,6 +33684,11 @@ class ItemSearchBasic extends SearchRecordBasic {
 	 * @access public
 	 * @var SearchDoubleField
 	 */
+	public $buildTimeLotSize;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
 	public $buyItNowPrice;
 	/**
 	 * @access public
@@ -33203,6 +33730,11 @@ class ItemSearchBasic extends SearchRecordBasic {
 	 * @var SearchBooleanField
 	 */
 	public $contingentRevenueHandling;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $conversionRate;
 	/**
 	 * @access public
 	 * @var SearchBooleanField
@@ -33397,6 +33929,11 @@ class ItemSearchBasic extends SearchRecordBasic {
 	 * @access public
 	 * @var SearchBooleanField
 	 */
+	public $enableCatchWeight;
+	/**
+	 * @access public
+	 * @var SearchBooleanField
+	 */
 	public $endAuctionsWhenOutOfStock;
 	/**
 	 * @access public
@@ -33428,6 +33965,11 @@ class ItemSearchBasic extends SearchRecordBasic {
 	 * @var SearchStringField
 	 */
 	public $feedName;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $fixedBuildTime;
 	/**
 	 * @access public
 	 * @var SearchDoubleField
@@ -33860,6 +34402,11 @@ class ItemSearchBasic extends SearchRecordBasic {
 	public $locForwardConsumptionDays;
 	/**
 	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $lowerWarningLimit;
+	/**
+	 * @access public
 	 * @var SearchStringField
 	 */
 	public $manufacturer;
@@ -34038,6 +34585,11 @@ class ItemSearchBasic extends SearchRecordBasic {
 	 * @var SearchEnumMultiSelectField
 	 */
 	public $periodicLotSizeType;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $planningItemCategory;
 	/**
 	 * @access public
 	 * @var SearchStringField
@@ -34255,6 +34807,31 @@ class ItemSearchBasic extends SearchRecordBasic {
 	public $seasonalDemand;
 	/**
 	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $secondaryConsumptionUnit;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $secondaryPurchaseUnit;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $secondarySaleUnit;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $secondaryStockUnit;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $secondaryUnitsType;
+	/**
+	 * @access public
 	 * @var SearchBooleanField
 	 */
 	public $sellOnEBay;
@@ -34415,6 +34992,11 @@ class ItemSearchBasic extends SearchRecordBasic {
 	public $upcCode;
 	/**
 	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $upperWarningLimit;
+	/**
+	 * @access public
 	 * @var SearchStringField
 	 */
 	public $urlComponent;
@@ -34533,6 +35115,7 @@ class ItemSearchBasic extends SearchRecordBasic {
 		"bomQuantity" => "SearchDoubleField",
 		"buildEntireAssembly" => "SearchBooleanField",
 		"buildTime" => "SearchDoubleField",
+		"buildTimeLotSize" => "SearchDoubleField",
 		"buyItNowPrice" => "SearchDoubleField",
 		"caption" => "SearchStringField",
 		"category" => "SearchMultiSelectField",
@@ -34542,6 +35125,7 @@ class ItemSearchBasic extends SearchRecordBasic {
 		"componentYield" => "SearchDoubleField",
 		"consumptionUnit" => "SearchMultiSelectField",
 		"contingentRevenueHandling" => "SearchBooleanField",
+		"conversionRate" => "SearchDoubleField",
 		"copyDescription" => "SearchBooleanField",
 		"correlatedItem" => "SearchMultiSelectField",
 		"correlatedItemCorrelation" => "SearchDoubleField",
@@ -34580,6 +35164,7 @@ class ItemSearchBasic extends SearchRecordBasic {
 		"effectiveBomControl" => "SearchEnumMultiSelectField",
 		"effectiveDate" => "SearchDateField",
 		"effectiveRevision" => "SearchMultiSelectField",
+		"enableCatchWeight" => "SearchBooleanField",
 		"endAuctionsWhenOutOfStock" => "SearchBooleanField",
 		"excludeFromSitemap" => "SearchBooleanField",
 		"externalId" => "SearchMultiSelectField",
@@ -34587,6 +35172,7 @@ class ItemSearchBasic extends SearchRecordBasic {
 		"featuredDescription" => "SearchStringField",
 		"feedDescription" => "SearchStringField",
 		"feedName" => "SearchStringField",
+		"fixedBuildTime" => "SearchDoubleField",
 		"fixedLotSize" => "SearchDoubleField",
 		"forwardConsumptionDays" => "SearchLongField",
 		"fraudRisk" => "SearchEnumMultiSelectField",
@@ -34673,6 +35259,7 @@ class ItemSearchBasic extends SearchRecordBasic {
 		"locationTotalValue" => "SearchDoubleField",
 		"locBackwardConsumptionDays" => "SearchLongField",
 		"locForwardConsumptionDays" => "SearchLongField",
+		"lowerWarningLimit" => "SearchDoubleField",
 		"manufacturer" => "SearchStringField",
 		"manufactureraddr1" => "SearchStringField",
 		"manufacturerCity" => "SearchStringField",
@@ -34709,6 +35296,7 @@ class ItemSearchBasic extends SearchRecordBasic {
 		"parent" => "SearchMultiSelectField",
 		"periodicLotSizeDays" => "SearchLongField",
 		"periodicLotSizeType" => "SearchEnumMultiSelectField",
+		"planningItemCategory" => "SearchMultiSelectField",
 		"preferenceCriterion" => "SearchStringField",
 		"preferredBin" => "SearchBooleanField",
 		"preferredLocation" => "SearchMultiSelectField",
@@ -34752,6 +35340,11 @@ class ItemSearchBasic extends SearchRecordBasic {
 		"scheduleBQuantity" => "SearchStringField",
 		"searchKeywords" => "SearchStringField",
 		"seasonalDemand" => "SearchBooleanField",
+		"secondaryConsumptionUnit" => "SearchMultiSelectField",
+		"secondaryPurchaseUnit" => "SearchMultiSelectField",
+		"secondarySaleUnit" => "SearchMultiSelectField",
+		"secondaryStockUnit" => "SearchMultiSelectField",
+		"secondaryUnitsType" => "SearchMultiSelectField",
 		"sellOnEBay" => "SearchBooleanField",
 		"serialNumber" => "SearchStringField",
 		"serialNumberLocation" => "SearchMultiSelectField",
@@ -34784,6 +35377,7 @@ class ItemSearchBasic extends SearchRecordBasic {
 		"type" => "SearchEnumMultiSelectField",
 		"unitsType" => "SearchMultiSelectField",
 		"upcCode" => "SearchStringField",
+		"upperWarningLimit" => "SearchDoubleField",
 		"urlComponent" => "SearchStringField",
 		"useBins" => "SearchBooleanField",
 		"useComponentYield" => "SearchBooleanField",
@@ -34950,6 +35544,11 @@ class ItemSearchRowBasic extends SearchRowBasic {
 	 * @access public
 	 * @var SearchColumnDoubleField[]
 	 */
+	public $buildTimeLotSize;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
 	public $buyItNowPrice;
 	/**
 	 * @access public
@@ -34981,6 +35580,11 @@ class ItemSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnBooleanField[]
 	 */
 	public $contingentRevenueHandling;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $conversionRate;
 	/**
 	 * @access public
 	 * @var SearchColumnBooleanField[]
@@ -35195,6 +35799,11 @@ class ItemSearchRowBasic extends SearchRowBasic {
 	 * @access public
 	 * @var SearchColumnBooleanField[]
 	 */
+	public $enableCatchWeight;
+	/**
+	 * @access public
+	 * @var SearchColumnBooleanField[]
+	 */
 	public $endAuctionsWhenOutOfStock;
 	/**
 	 * @access public
@@ -35226,6 +35835,11 @@ class ItemSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnStringField[]
 	 */
 	public $feedName;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $fixedBuildTime;
 	/**
 	 * @access public
 	 * @var SearchColumnDoubleField[]
@@ -35683,6 +36297,11 @@ class ItemSearchRowBasic extends SearchRowBasic {
 	public $locForwardConsumptionDays;
 	/**
 	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $lowerWarningLimit;
+	/**
+	 * @access public
 	 * @var SearchColumnStringField[]
 	 */
 	public $manufacturer;
@@ -35886,6 +36505,11 @@ class ItemSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnEnumSelectField[]
 	 */
 	public $periodicLotSizeType;
+	/**
+	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $planningItemCategory;
 	/**
 	 * @access public
 	 * @var SearchColumnStringField[]
@@ -36133,6 +36757,31 @@ class ItemSearchRowBasic extends SearchRowBasic {
 	public $seasonalDemand;
 	/**
 	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $secondaryConsumptionUnit;
+	/**
+	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $secondaryPurchaseUnit;
+	/**
+	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $secondarySaleUnit;
+	/**
+	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $secondaryStockUnit;
+	/**
+	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $secondaryUnitsType;
+	/**
+	 * @access public
 	 * @var SearchColumnBooleanField[]
 	 */
 	public $sellOnEBay;
@@ -36313,6 +36962,11 @@ class ItemSearchRowBasic extends SearchRowBasic {
 	public $upcCode;
 	/**
 	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $upperWarningLimit;
+	/**
+	 * @access public
 	 * @var SearchColumnStringField[]
 	 */
 	public $urlComponent;
@@ -36460,6 +37114,7 @@ class ItemSearchRowBasic extends SearchRowBasic {
 		"bomQuantity" => "SearchColumnDoubleField[]",
 		"buildEntireAssembly" => "SearchColumnBooleanField[]",
 		"buildTime" => "SearchColumnDoubleField[]",
+		"buildTimeLotSize" => "SearchColumnDoubleField[]",
 		"buyItNowPrice" => "SearchColumnDoubleField[]",
 		"category" => "SearchColumnStringField[]",
 		"categoryPreferred" => "SearchColumnStringField[]",
@@ -36467,6 +37122,7 @@ class ItemSearchRowBasic extends SearchRowBasic {
 		"componentYield" => "SearchColumnDoubleField[]",
 		"consumptionUnit" => "SearchColumnSelectField[]",
 		"contingentRevenueHandling" => "SearchColumnBooleanField[]",
+		"conversionRate" => "SearchColumnDoubleField[]",
 		"copyDescription" => "SearchColumnBooleanField[]",
 		"correlatedItem" => "SearchColumnSelectField[]",
 		"correlatedItemCorrelation" => "SearchColumnDoubleField[]",
@@ -36509,6 +37165,7 @@ class ItemSearchRowBasic extends SearchRowBasic {
 		"effectiveBomControl" => "SearchColumnEnumSelectField[]",
 		"effectiveDate" => "SearchColumnDateField[]",
 		"effectiveRevision" => "SearchColumnSelectField[]",
+		"enableCatchWeight" => "SearchColumnBooleanField[]",
 		"endAuctionsWhenOutOfStock" => "SearchColumnBooleanField[]",
 		"excludeFromSitemap" => "SearchColumnBooleanField[]",
 		"expenseAccount" => "SearchColumnSelectField[]",
@@ -36516,6 +37173,7 @@ class ItemSearchRowBasic extends SearchRowBasic {
 		"featuredDescription" => "SearchColumnStringField[]",
 		"feedDescription" => "SearchColumnStringField[]",
 		"feedName" => "SearchColumnStringField[]",
+		"fixedBuildTime" => "SearchColumnDoubleField[]",
 		"fixedLotSize" => "SearchColumnDoubleField[]",
 		"forwardConsumptionDays" => "SearchColumnLongField[]",
 		"fraudRisk" => "SearchColumnEnumSelectField[]",
@@ -36607,6 +37265,7 @@ class ItemSearchRowBasic extends SearchRowBasic {
 		"locationTotalValue" => "SearchColumnDoubleField[]",
 		"locBackwardConsumptionDays" => "SearchColumnLongField[]",
 		"locForwardConsumptionDays" => "SearchColumnLongField[]",
+		"lowerWarningLimit" => "SearchColumnDoubleField[]",
 		"manufacturer" => "SearchColumnStringField[]",
 		"manufacturerAddr1" => "SearchColumnStringField[]",
 		"manufacturerCity" => "SearchColumnStringField[]",
@@ -36648,6 +37307,7 @@ class ItemSearchRowBasic extends SearchRowBasic {
 		"parent" => "SearchColumnSelectField[]",
 		"periodicLotSizeDays" => "SearchColumnLongField[]",
 		"periodicLotSizeType" => "SearchColumnEnumSelectField[]",
+		"planningItemCategory" => "SearchColumnSelectField[]",
 		"preferenceCriterion" => "SearchColumnStringField[]",
 		"preferredBin" => "SearchColumnBooleanField[]",
 		"preferredLocation" => "SearchColumnSelectField[]",
@@ -36697,6 +37357,11 @@ class ItemSearchRowBasic extends SearchRowBasic {
 		"scrapAcct" => "SearchColumnSelectField[]",
 		"searchKeywords" => "SearchColumnStringField[]",
 		"seasonalDemand" => "SearchColumnBooleanField[]",
+		"secondaryConsumptionUnit" => "SearchColumnSelectField[]",
+		"secondaryPurchaseUnit" => "SearchColumnSelectField[]",
+		"secondarySaleUnit" => "SearchColumnSelectField[]",
+		"secondaryStockUnit" => "SearchColumnSelectField[]",
+		"secondaryUnitsType" => "SearchColumnSelectField[]",
 		"sellOnEBay" => "SearchColumnBooleanField[]",
 		"serialNumber" => "SearchColumnStringField[]",
 		"serialNumberLocation" => "SearchColumnStringField[]",
@@ -36733,6 +37398,7 @@ class ItemSearchRowBasic extends SearchRowBasic {
 		"unbuildVarianceAccount" => "SearchColumnSelectField[]",
 		"unitsType" => "SearchColumnSelectField[]",
 		"upcCode" => "SearchColumnStringField[]",
+		"upperWarningLimit" => "SearchColumnDoubleField[]",
 		"urlComponent" => "SearchColumnStringField[]",
 		"useBins" => "SearchColumnBooleanField[]",
 		"useComponentYield" => "SearchColumnBooleanField[]",
@@ -41025,6 +41691,11 @@ class JobSearchBasic extends SearchRecordBasic {
 	public $calculatedEndDateBaseline;
 	/**
 	 * @access public
+	 * @var SearchDateField
+	 */
+	public $calculatedStartDate;
+	/**
+	 * @access public
 	 * @var SearchMultiSelectField
 	 */
 	public $category;
@@ -41335,6 +42006,16 @@ class JobSearchBasic extends SearchRecordBasic {
 	public $revRecForecastRule;
 	/**
 	 * @access public
+	 * @var SearchDateField
+	 */
+	public $scheduledEndDate;
+	/**
+	 * @access public
+	 * @var SearchEnumMultiSelectField
+	 */
+	public $schedulingMethod;
+	/**
+	 * @access public
 	 * @var SearchBooleanField
 	 */
 	public $sourceServiceItemFromRateCard;
@@ -41411,6 +42092,7 @@ class JobSearchBasic extends SearchRecordBasic {
 		"billingSchedule" => "SearchMultiSelectField",
 		"calculatedEndDate" => "SearchDateField",
 		"calculatedEndDateBaseline" => "SearchDateField",
+		"calculatedStartDate" => "SearchDateField",
 		"category" => "SearchMultiSelectField",
 		"city" => "SearchStringField",
 		"comments" => "SearchStringField",
@@ -41473,6 +42155,8 @@ class JobSearchBasic extends SearchRecordBasic {
 		"projectExpenseType" => "SearchMultiSelectField",
 		"projectManager" => "SearchMultiSelectField",
 		"revRecForecastRule" => "SearchMultiSelectField",
+		"scheduledEndDate" => "SearchDateField",
+		"schedulingMethod" => "SearchEnumMultiSelectField",
 		"sourceServiceItemFromRateCard" => "SearchBooleanField",
 		"startDate" => "SearchDateField",
 		"startDateBaseline" => "SearchDateField",
@@ -41663,6 +42347,11 @@ class JobSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnDateField[]
 	 */
 	public $calculatedEndDateBaseline;
+	/**
+	 * @access public
+	 * @var SearchColumnDateField[]
+	 */
+	public $calculatedStartDate;
 	/**
 	 * @access public
 	 * @var SearchColumnSelectField[]
@@ -41965,6 +42654,16 @@ class JobSearchRowBasic extends SearchRowBasic {
 	public $revRecForecastRule;
 	/**
 	 * @access public
+	 * @var SearchColumnDateField[]
+	 */
+	public $scheduledEndDate;
+	/**
+	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $schedulingMethod;
+	/**
+	 * @access public
 	 * @var SearchColumnStringField[]
 	 */
 	public $shipAddress1;
@@ -42119,6 +42818,7 @@ class JobSearchRowBasic extends SearchRowBasic {
 		"billZipCode" => "SearchColumnStringField[]",
 		"calculatedEndDate" => "SearchColumnDateField[]",
 		"calculatedEndDateBaseline" => "SearchColumnDateField[]",
+		"calculatedStartDate" => "SearchColumnDateField[]",
 		"category" => "SearchColumnSelectField[]",
 		"city" => "SearchColumnStringField[]",
 		"comments" => "SearchColumnStringField[]",
@@ -42179,6 +42879,8 @@ class JobSearchRowBasic extends SearchRowBasic {
 		"projectExpenseType" => "SearchColumnSelectField[]",
 		"projectManager" => "SearchColumnSelectField[]",
 		"revRecForecastRule" => "SearchColumnSelectField[]",
+		"scheduledEndDate" => "SearchColumnDateField[]",
+		"schedulingMethod" => "SearchColumnEnumSelectField[]",
 		"shipAddress1" => "SearchColumnStringField[]",
 		"shipAddress2" => "SearchColumnStringField[]",
 		"shipAddress3" => "SearchColumnStringField[]",
@@ -45254,11 +45956,6 @@ class ContactCategorySearchBasic extends SearchRecordBasic {
 	 * @var SearchBooleanField
 	 */
 	public $private;
-	/**
-	 * @access public
-	 * @var SearchBooleanField
-	 */
-	public $sync;
 
 	static $paramtypesmap = array(
 		"externalId" => "SearchMultiSelectField",
@@ -45268,7 +45965,6 @@ class ContactCategorySearchBasic extends SearchRecordBasic {
 		"isInactive" => "SearchBooleanField",
 		"name" => "SearchStringField",
 		"private" => "SearchBooleanField",
-		"sync" => "SearchBooleanField",
 	);
 }}
 
@@ -45302,11 +45998,6 @@ class ContactCategorySearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnBooleanField[]
 	 */
 	public $private;
-	/**
-	 * @access public
-	 * @var SearchColumnBooleanField[]
-	 */
-	public $sync;
 
 	static $paramtypesmap = array(
 		"externalId" => "SearchColumnSelectField[]",
@@ -45314,7 +46005,6 @@ class ContactCategorySearchRowBasic extends SearchRowBasic {
 		"isInactive" => "SearchColumnBooleanField[]",
 		"name" => "SearchColumnStringField[]",
 		"private" => "SearchColumnBooleanField[]",
-		"sync" => "SearchColumnBooleanField[]",
 	);
 }}
 
@@ -51894,11 +52584,6 @@ class ResourceAllocationSearchRowBasic extends SearchRowBasic {
 	 * @access public
 	 * @var SearchColumnSelectField[]
 	 */
-	public $project;
-	/**
-	 * @access public
-	 * @var SearchColumnSelectField[]
-	 */
 	public $customer;
 	/**
 	 * @access public
@@ -51939,6 +52624,11 @@ class ResourceAllocationSearchRowBasic extends SearchRowBasic {
 	 * @access public
 	 * @var SearchColumnSelectField[]
 	 */
+	public $project;
+	/**
+	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
 	public $requestedBy;
 	/**
 	 * @access public
@@ -51960,7 +52650,6 @@ class ResourceAllocationSearchRowBasic extends SearchRowBasic {
 		"allocationType" => "SearchColumnSelectField[]",
 		"allocationUnit" => "SearchColumnEnumSelectField[]",
 		"approvalStatus" => "SearchColumnEnumSelectField[]",
-		"project" => "SearchColumnSelectField[]",
 		"customer" => "SearchColumnSelectField[]",
 		"endDate" => "SearchColumnDateField[]",
 		"externalId" => "SearchColumnSelectField[]",
@@ -51969,6 +52658,7 @@ class ResourceAllocationSearchRowBasic extends SearchRowBasic {
 		"notes" => "SearchColumnStringField[]",
 		"numberHours" => "SearchColumnDoubleField[]",
 		"percentOfTime" => "SearchColumnDoubleField[]",
+		"project" => "SearchColumnSelectField[]",
 		"requestedBy" => "SearchColumnSelectField[]",
 		"resource" => "SearchColumnSelectField[]",
 		"startDate" => "SearchColumnDateField[]",
@@ -54714,6 +55404,11 @@ class UsageSearchBasic extends SearchRecordBasic {
 	public $quantity;
 	/**
 	 * @access public
+	 * @var SearchEnumMultiSelectField
+	 */
+	public $status;
+	/**
+	 * @access public
 	 * @var SearchMultiSelectField
 	 */
 	public $subscription;
@@ -54738,6 +55433,7 @@ class UsageSearchBasic extends SearchRecordBasic {
 		"item" => "SearchMultiSelectField",
 		"memo" => "SearchStringField",
 		"quantity" => "SearchDoubleField",
+		"status" => "SearchEnumMultiSelectField",
 		"subscription" => "SearchMultiSelectField",
 		"subscriptionLine" => "SearchMultiSelectField",
 		"subscriptionPlan" => "SearchMultiSelectField",
@@ -54786,6 +55482,11 @@ class UsageSearchRowBasic extends SearchRowBasic {
 	public $quantity;
 	/**
 	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $status;
+	/**
+	 * @access public
 	 * @var SearchColumnSelectField[]
 	 */
 	public $subscription;
@@ -54808,6 +55509,7 @@ class UsageSearchRowBasic extends SearchRowBasic {
 		"item" => "SearchColumnSelectField[]",
 		"memo" => "SearchColumnStringField[]",
 		"quantity" => "SearchColumnDoubleField[]",
+		"status" => "SearchColumnEnumSelectField[]",
 		"subscription" => "SearchColumnSelectField[]",
 		"subscriptionLine" => "SearchColumnSelectField[]",
 		"subscriptionPlan" => "SearchColumnSelectField[]",
@@ -63786,6 +64488,24 @@ class BillingAccountFrequency {
 	const _weekly = "_weekly";
 }}
 
+if (!class_exists("JobSchedulingMethod")) {
+/**
+ * JobSchedulingMethod
+ */
+class JobSchedulingMethod {
+
+	static $paramtypesmap = array(
+	);
+	/**
+	 * @var string
+	 */
+	const _backward = "_backward";
+	/**
+	 * @var string
+	 */
+	const _forward = "_forward";
+}}
+
 if (!class_exists("Subscriptions")) {
 /**
  * Subscriptions
@@ -65225,6 +65945,11 @@ class Customer extends Record {
 	public $taxRegistrationList;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $defaultAllocationStrategy;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -65374,6 +66099,7 @@ class Customer extends Record {
 		"groupPricingList" => "CustomerGroupPricingList",
 		"itemPricingList" => "CustomerItemPricingList",
 		"taxRegistrationList" => "CustomerTaxRegistrationList",
+		"defaultAllocationStrategy" => "RecordRef",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -67836,11 +68562,6 @@ class VendorSearch extends SearchRecord {
 	public $messagesJoin;
 	/**
 	 * @access public
-	 * @var MseSubsidiarySearchBasic
-	 */
-	public $mseSubsidiaryJoin;
-	/**
-	 * @access public
 	 * @var MessageSearchBasic
 	 */
 	public $messagesFromJoin;
@@ -67849,6 +68570,11 @@ class VendorSearch extends SearchRecord {
 	 * @var MessageSearchBasic
 	 */
 	public $messagesToJoin;
+	/**
+	 * @access public
+	 * @var MseSubsidiarySearchBasic
+	 */
+	public $mseSubsidiaryJoin;
 	/**
 	 * @access public
 	 * @var EntityTaxRegistrationSearchBasic
@@ -67890,9 +68616,9 @@ class VendorSearch extends SearchRecord {
 		"fileJoin" => "FileSearchBasic",
 		"manufacturingLocationsJoin" => "LocationSearchBasic",
 		"messagesJoin" => "MessageSearchBasic",
-		"mseSubsidiaryJoin" => "MseSubsidiarySearchBasic",
 		"messagesFromJoin" => "MessageSearchBasic",
 		"messagesToJoin" => "MessageSearchBasic",
+		"mseSubsidiaryJoin" => "MseSubsidiarySearchBasic",
 		"taxRegistrationJoin" => "EntityTaxRegistrationSearchBasic",
 		"timeApproverJoin" => "EmployeeSearchBasic",
 		"transactionJoin" => "TransactionSearchBasic",
@@ -67988,11 +68714,6 @@ class VendorSearchRow extends SearchRow {
 	public $messagesJoin;
 	/**
 	 * @access public
-	 * @var MseSubsidiarySearchRowBasic
-	 */
-	public $mseSubsidiaryJoin;
-	/**
-	 * @access public
 	 * @var MessageSearchRowBasic
 	 */
 	public $messagesFromJoin;
@@ -68001,6 +68722,11 @@ class VendorSearchRow extends SearchRow {
 	 * @var MessageSearchRowBasic
 	 */
 	public $messagesToJoin;
+	/**
+	 * @access public
+	 * @var MseSubsidiarySearchRowBasic
+	 */
+	public $mseSubsidiaryJoin;
 	/**
 	 * @access public
 	 * @var EntityTaxRegistrationSearchRowBasic
@@ -68042,9 +68768,9 @@ class VendorSearchRow extends SearchRow {
 		"fileJoin" => "FileSearchRowBasic",
 		"manufacturingLocationsJoin" => "LocationSearchRowBasic",
 		"messagesJoin" => "MessageSearchRowBasic",
-		"mseSubsidiaryJoin" => "MseSubsidiarySearchRowBasic",
 		"messagesFromJoin" => "MessageSearchRowBasic",
 		"messagesToJoin" => "MessageSearchRowBasic",
+		"mseSubsidiaryJoin" => "MseSubsidiarySearchRowBasic",
 		"taxRegistrationJoin" => "EntityTaxRegistrationSearchRowBasic",
 		"timeApproverJoin" => "EmployeeSearchRowBasic",
 		"transactionJoin" => "TransactionSearchRowBasic",
@@ -68738,6 +69464,21 @@ class Job extends Record {
 	public $projectManager;
 	/**
 	 * @access public
+	 * @var JobSchedulingMethod
+	 */
+	public $schedulingMethod;
+	/**
+	 * @access public
+	 * @var dateTime
+	 */
+	public $scheduledEndDate;
+	/**
+	 * @access public
+	 * @var dateTime
+	 */
+	public $calculatedStartDate;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -68836,6 +69577,9 @@ class Job extends Record {
 		"createChargeRule" => "boolean",
 		"sourceServiceItemFromRateCard" => "boolean",
 		"projectManager" => "RecordRef",
+		"schedulingMethod" => "JobSchedulingMethod",
+		"scheduledEndDate" => "dateTime",
+		"calculatedStartDate" => "dateTime",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -74559,6 +75303,10 @@ class ItemSupplyReplenishmentMethod {
 	/**
 	 * @var string
 	 */
+	const _materialRequirementsPlanning = "_materialRequirementsPlanning";
+	/**
+	 * @var string
+	 */
 	const _reorderPoint = "_reorderPoint";
 	/**
 	 * @var string
@@ -76273,11 +77021,6 @@ class ContactCategory extends Record {
 	 * @access public
 	 * @var boolean
 	 */
-	public $sync;
-	/**
-	 * @access public
-	 * @var boolean
-	 */
 	public $isInactive;
 	/**
 	 * @access public
@@ -76293,7 +77036,6 @@ class ContactCategory extends Record {
 	static $paramtypesmap = array(
 		"name" => "string",
 		"private" => "boolean",
-		"sync" => "boolean",
 		"isInactive" => "boolean",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -78626,6 +79368,61 @@ class InventoryItem extends Record {
 	public $consumptionUnit;
 	/**
 	 * @access public
+	 * @var boolean
+	 */
+	public $enableCatchWeight;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $secondaryUnitsType;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $secondaryBaseUnit;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $conversionRate;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $secondaryStockUnit;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $secondarySaleUnit;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $secondaryPurchaseUnit;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $secondaryConsumptionUnit;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $lowerWarningLimit;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $upperWarningLimit;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $planningItemCategory;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -78868,6 +79665,17 @@ class InventoryItem extends Record {
 		"presentationItemList" => "PresentationItemList",
 		"futureHorizon" => "integer",
 		"consumptionUnit" => "RecordRef",
+		"enableCatchWeight" => "boolean",
+		"secondaryUnitsType" => "RecordRef",
+		"secondaryBaseUnit" => "RecordRef",
+		"conversionRate" => "float",
+		"secondaryStockUnit" => "RecordRef",
+		"secondarySaleUnit" => "RecordRef",
+		"secondaryPurchaseUnit" => "RecordRef",
+		"secondaryConsumptionUnit" => "RecordRef",
+		"lowerWarningLimit" => "float",
+		"upperWarningLimit" => "float",
+		"planningItemCategory" => "RecordRef",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -79039,6 +79847,16 @@ class InventoryItemLocations {
 	public $buildTime;
 	/**
 	 * @access public
+	 * @var float
+	 */
+	public $fixedBuildTime;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $buildTimeLotSize;
+	/**
+	 * @access public
 	 * @var dateTime
 	 */
 	public $lastInvtCountDate;
@@ -79180,6 +79998,8 @@ class InventoryItemLocations {
 		"cost" => "float",
 		"inventoryCostTemplate" => "RecordRef",
 		"buildTime" => "float",
+		"fixedBuildTime" => "float",
+		"buildTimeLotSize" => "float",
 		"lastInvtCountDate" => "dateTime",
 		"nextInvtCountDate" => "dateTime",
 		"isWip" => "boolean",
@@ -80733,6 +81553,21 @@ class NonInventoryPurchaseItem extends Record {
 	public $consumptionUnit;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $billQtyVarianceAcct;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billPriceVarianceAcct;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billExchRateVarianceAcct;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -80798,6 +81633,9 @@ class NonInventoryPurchaseItem extends Record {
 		"vendor" => "RecordRef",
 		"hierarchyVersionsList" => "NonInventoryPurchaseItemHierarchyVersionsList",
 		"consumptionUnit" => "RecordRef",
+		"billQtyVarianceAcct" => "RecordRef",
+		"billPriceVarianceAcct" => "RecordRef",
+		"billExchRateVarianceAcct" => "RecordRef",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -81471,6 +82309,21 @@ class NonInventorySaleItem extends Record {
 	public $consumptionUnit;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $billQtyVarianceAcct;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billPriceVarianceAcct;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billExchRateVarianceAcct;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -81618,6 +82471,9 @@ class NonInventorySaleItem extends Record {
 		"presentationItemList" => "PresentationItemList",
 		"hierarchyVersionsList" => "NonInventorySaleItemHierarchyVersionsList",
 		"consumptionUnit" => "RecordRef",
+		"billQtyVarianceAcct" => "RecordRef",
+		"billPriceVarianceAcct" => "RecordRef",
+		"billExchRateVarianceAcct" => "RecordRef",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -82411,6 +83267,21 @@ class NonInventoryResaleItem extends Record {
 	public $consumptionUnit;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $billQtyVarianceAcct;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billPriceVarianceAcct;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billExchRateVarianceAcct;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -82582,6 +83453,9 @@ class NonInventoryResaleItem extends Record {
 		"presentationItemList" => "PresentationItemList",
 		"hierarchyVersionsList" => "NonInventoryResaleItemHierarchyVersionsList",
 		"consumptionUnit" => "RecordRef",
+		"billQtyVarianceAcct" => "RecordRef",
+		"billPriceVarianceAcct" => "RecordRef",
+		"billExchRateVarianceAcct" => "RecordRef",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -83055,6 +83929,21 @@ class OtherChargeResaleItem extends Record {
 	public $consumptionUnit;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $billQtyVarianceAcct;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billPriceVarianceAcct;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billExchRateVarianceAcct;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -83162,6 +84051,9 @@ class OtherChargeResaleItem extends Record {
 		"vendor" => "RecordRef",
 		"hierarchyVersionsList" => "OtherChargeResaleItemHierarchyVersionsList",
 		"consumptionUnit" => "RecordRef",
+		"billQtyVarianceAcct" => "RecordRef",
+		"billPriceVarianceAcct" => "RecordRef",
+		"billExchRateVarianceAcct" => "RecordRef",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -83435,6 +84327,21 @@ class OtherChargePurchaseItem extends Record {
 	public $consumptionUnit;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $billQtyVarianceAcct;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billPriceVarianceAcct;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billExchRateVarianceAcct;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -83502,6 +84409,9 @@ class OtherChargePurchaseItem extends Record {
 		"vendor" => "RecordRef",
 		"hierarchyVersionsList" => "OtherChargePurchaseItemHierarchyVersionsList",
 		"consumptionUnit" => "RecordRef",
+		"billQtyVarianceAcct" => "RecordRef",
+		"billPriceVarianceAcct" => "RecordRef",
+		"billExchRateVarianceAcct" => "RecordRef",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -84115,6 +85025,21 @@ class ServiceResaleItem extends Record {
 	public $consumptionUnit;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $billQtyVarianceAcct;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billPriceVarianceAcct;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billExchRateVarianceAcct;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -84250,6 +85175,9 @@ class ServiceResaleItem extends Record {
 		"presentationItemList" => "PresentationItemList",
 		"hierarchyVersionsList" => "ServiceResaleItemHierarchyVersionsList",
 		"consumptionUnit" => "RecordRef",
+		"billQtyVarianceAcct" => "RecordRef",
+		"billPriceVarianceAcct" => "RecordRef",
+		"billExchRateVarianceAcct" => "RecordRef",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -84518,6 +85446,21 @@ class ServicePurchaseItem extends Record {
 	public $consumptionUnit;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $billQtyVarianceAcct;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billPriceVarianceAcct;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billExchRateVarianceAcct;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -84584,6 +85527,9 @@ class ServicePurchaseItem extends Record {
 		"vendor" => "RecordRef",
 		"hierarchyVersionsList" => "ServicePurchaseItemHierarchyVersionsList",
 		"consumptionUnit" => "RecordRef",
+		"billQtyVarianceAcct" => "RecordRef",
+		"billPriceVarianceAcct" => "RecordRef",
+		"billExchRateVarianceAcct" => "RecordRef",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -85077,6 +86023,21 @@ class ServiceSaleItem extends Record {
 	public $consumptionUnit;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $billQtyVarianceAcct;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billPriceVarianceAcct;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billExchRateVarianceAcct;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -85188,6 +86149,9 @@ class ServiceSaleItem extends Record {
 		"presentationItemList" => "PresentationItemList",
 		"hierarchyVersionsList" => "ServiceSaleItemHierarchyVersionsList",
 		"consumptionUnit" => "RecordRef",
+		"billQtyVarianceAcct" => "RecordRef",
+		"billPriceVarianceAcct" => "RecordRef",
+		"billExchRateVarianceAcct" => "RecordRef",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -85541,6 +86505,21 @@ class OtherChargeSaleItem extends Record {
 	public $consumptionUnit;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $billQtyVarianceAcct;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billPriceVarianceAcct;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billExchRateVarianceAcct;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -85624,6 +86603,9 @@ class OtherChargeSaleItem extends Record {
 		"translationsList" => "TranslationList",
 		"hierarchyVersionsList" => "OtherChargeSaleItemHierarchyVersionsList",
 		"consumptionUnit" => "RecordRef",
+		"billQtyVarianceAcct" => "RecordRef",
+		"billPriceVarianceAcct" => "RecordRef",
+		"billExchRateVarianceAcct" => "RecordRef",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -86570,6 +87552,16 @@ class Location extends Record {
 	public $includeInControlTower;
 	/**
 	 * @access public
+	 * @var integer
+	 */
+	public $soPredictedDays;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $soPredConfidence;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -86614,6 +87606,8 @@ class Location extends Record {
 		"businessHoursList" => "LocationBusinessHoursList",
 		"classTranslationList" => "ClassTranslationList",
 		"includeInControlTower" => "boolean",
+		"soPredictedDays" => "integer",
+		"soPredConfidence" => "float",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -86895,6 +87889,11 @@ class ItemSearch extends SearchRecord {
 	public $fileJoin;
 	/**
 	 * @access public
+	 * @var MerchandiseHierarchyNodeSearchBasic
+	 */
+	public $hierarchyNodeJoin;
+	/**
+	 * @access public
 	 * @var InventoryDetailSearchBasic
 	 */
 	public $inventoryDetailJoin;
@@ -86983,6 +87982,7 @@ class ItemSearch extends SearchRecord {
 		"correlatedItemJoin" => "ItemSearchBasic",
 		"effectiveRevisionJoin" => "ItemRevisionSearchBasic",
 		"fileJoin" => "FileSearchBasic",
+		"hierarchyNodeJoin" => "MerchandiseHierarchyNodeSearchBasic",
 		"inventoryDetailJoin" => "InventoryDetailSearchBasic",
 		"inventoryLocationJoin" => "LocationSearchBasic",
 		"inventoryNumberJoin" => "InventoryNumberSearchBasic",
@@ -87083,6 +88083,11 @@ class ItemSearchRow extends SearchRow {
 	public $fileJoin;
 	/**
 	 * @access public
+	 * @var MerchandiseHierarchyNodeSearchRowBasic
+	 */
+	public $hierarchyNodeJoin;
+	/**
+	 * @access public
 	 * @var InventoryDetailSearchRowBasic
 	 */
 	public $inventoryDetailJoin;
@@ -87171,6 +88176,7 @@ class ItemSearchRow extends SearchRow {
 		"correlatedItemJoin" => "ItemSearchRowBasic",
 		"effectiveRevisionJoin" => "ItemRevisionSearchRowBasic",
 		"fileJoin" => "FileSearchRowBasic",
+		"hierarchyNodeJoin" => "MerchandiseHierarchyNodeSearchRowBasic",
 		"inventoryDetailJoin" => "InventoryDetailSearchRowBasic",
 		"inventoryLocationJoin" => "LocationSearchRowBasic",
 		"inventoryNumberJoin" => "InventoryNumberSearchRowBasic",
@@ -88986,6 +89992,61 @@ class SerializedInventoryItem extends Record {
 	public $consumptionUnit;
 	/**
 	 * @access public
+	 * @var boolean
+	 */
+	public $enableCatchWeight;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $secondaryUnitsType;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $secondaryBaseUnit;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $conversionRate;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $secondaryStockUnit;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $secondarySaleUnit;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $secondaryPurchaseUnit;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $secondaryConsumptionUnit;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $lowerWarningLimit;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $upperWarningLimit;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $planningItemCategory;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -89216,6 +90277,17 @@ class SerializedInventoryItem extends Record {
 		"presentationItemList" => "PresentationItemList",
 		"futureHorizon" => "integer",
 		"consumptionUnit" => "RecordRef",
+		"enableCatchWeight" => "boolean",
+		"secondaryUnitsType" => "RecordRef",
+		"secondaryBaseUnit" => "RecordRef",
+		"conversionRate" => "float",
+		"secondaryStockUnit" => "RecordRef",
+		"secondarySaleUnit" => "RecordRef",
+		"secondaryPurchaseUnit" => "RecordRef",
+		"secondaryConsumptionUnit" => "RecordRef",
+		"lowerWarningLimit" => "float",
+		"upperWarningLimit" => "float",
+		"planningItemCategory" => "RecordRef",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -89317,6 +90389,16 @@ class SerializedInventoryItemLocations {
 	 * @var float
 	 */
 	public $buildTime;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $fixedBuildTime;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $buildTimeLotSize;
 	/**
 	 * @access public
 	 * @var dateTime
@@ -89457,6 +90539,8 @@ class SerializedInventoryItemLocations {
 		"cost" => "float",
 		"inventoryCostTemplate" => "RecordRef",
 		"buildTime" => "float",
+		"fixedBuildTime" => "float",
+		"buildTimeLotSize" => "float",
 		"lastInvtCountDate" => "dateTime",
 		"nextInvtCountDate" => "dateTime",
 		"invtCountInterval" => "integer",
@@ -90631,6 +91715,61 @@ class LotNumberedInventoryItem extends Record {
 	public $consumptionUnit;
 	/**
 	 * @access public
+	 * @var boolean
+	 */
+	public $enableCatchWeight;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $secondaryUnitsType;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $secondaryBaseUnit;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $conversionRate;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $secondaryStockUnit;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $secondarySaleUnit;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $secondaryPurchaseUnit;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $secondaryConsumptionUnit;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $lowerWarningLimit;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $upperWarningLimit;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $planningItemCategory;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -90862,6 +92001,17 @@ class LotNumberedInventoryItem extends Record {
 		"presentationItemList" => "PresentationItemList",
 		"futureHorizon" => "integer",
 		"consumptionUnit" => "RecordRef",
+		"enableCatchWeight" => "boolean",
+		"secondaryUnitsType" => "RecordRef",
+		"secondaryBaseUnit" => "RecordRef",
+		"conversionRate" => "float",
+		"secondaryStockUnit" => "RecordRef",
+		"secondarySaleUnit" => "RecordRef",
+		"secondaryPurchaseUnit" => "RecordRef",
+		"secondaryConsumptionUnit" => "RecordRef",
+		"lowerWarningLimit" => "float",
+		"upperWarningLimit" => "float",
+		"planningItemCategory" => "RecordRef",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -90963,6 +92113,16 @@ class LotNumberedInventoryItemLocations {
 	 * @var float
 	 */
 	public $buildTime;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $fixedBuildTime;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $buildTimeLotSize;
 	/**
 	 * @access public
 	 * @var dateTime
@@ -91118,6 +92278,8 @@ class LotNumberedInventoryItemLocations {
 		"cost" => "float",
 		"inventoryCostTemplate" => "RecordRef",
 		"buildTime" => "float",
+		"fixedBuildTime" => "float",
+		"buildTimeLotSize" => "float",
 		"lastInvtCountDate" => "dateTime",
 		"nextInvtCountDate" => "dateTime",
 		"isWip" => "boolean",
@@ -91811,16 +92973,6 @@ class Subsidiary extends Record {
 	 * @access public
 	 * @var string
 	 */
-	public $nonConsol;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $consol;
-	/**
-	 * @access public
-	 * @var string
-	 */
 	public $state1TaxNumber;
 	/**
 	 * @access public
@@ -91852,11 +93004,6 @@ class Subsidiary extends Record {
 	 * @var RecordRef
 	 */
 	public $checkLayout;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $inboundEmail;
 	/**
 	 * @access public
 	 * @var ClassTranslationList
@@ -91909,8 +93056,6 @@ class Subsidiary extends Record {
 		"edition" => "string",
 		"federalIdNumber" => "string",
 		"addrLanguage" => "string",
-		"nonConsol" => "string",
-		"consol" => "string",
 		"state1TaxNumber" => "string",
 		"taxRegistrationList" => "SubsidiaryTaxRegistrationList",
 		"ssnOrTin" => "string",
@@ -91918,7 +93063,6 @@ class Subsidiary extends Record {
 		"nexusList" => "SubsidiaryNexusList",
 		"accountingBookDetailList" => "SubsidiaryAccountingBookDetailList",
 		"checkLayout" => "RecordRef",
-		"inboundEmail" => "string",
 		"classTranslationList" => "ClassTranslationList",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
@@ -93800,9 +94944,24 @@ class AssemblyItem extends Record {
 	public $autoLeadTime;
 	/**
 	 * @access public
-	 * @var integer
+	 * @var float
 	 */
 	public $buildTime;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $buildTimeLotSize;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $fixedBuildTime;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $planningItemCategory;
 	/**
 	 * @access public
 	 * @var float
@@ -94327,7 +95486,10 @@ class AssemblyItem extends Record {
 		"averageCost" => "float",
 		"leadTime" => "integer",
 		"autoLeadTime" => "boolean",
-		"buildTime" => "integer",
+		"buildTime" => "float",
+		"buildTimeLotSize" => "float",
+		"fixedBuildTime" => "float",
+		"planningItemCategory" => "RecordRef",
 		"lastPurchasePrice" => "float",
 		"purchaseDescription" => "string",
 		"safetyStockLevel" => "float",
@@ -95140,9 +96302,24 @@ class SerializedAssemblyItem extends Record {
 	public $autoLeadTime;
 	/**
 	 * @access public
-	 * @var integer
+	 * @var float
 	 */
 	public $buildTime;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $buildTimeLotSize;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $fixedBuildTime;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $planningItemCategory;
 	/**
 	 * @access public
 	 * @var float
@@ -95670,7 +96847,10 @@ class SerializedAssemblyItem extends Record {
 		"purchaseDescription" => "string",
 		"leadTime" => "integer",
 		"autoLeadTime" => "boolean",
-		"buildTime" => "integer",
+		"buildTime" => "float",
+		"buildTimeLotSize" => "float",
+		"fixedBuildTime" => "float",
+		"planningItemCategory" => "RecordRef",
 		"safetyStockLevel" => "float",
 		"safetyStockLevelUnits" => "string",
 		"safetyStockLevelDays" => "integer",
@@ -96437,9 +97617,24 @@ class LotNumberedAssemblyItem extends Record {
 	public $autoLeadTime;
 	/**
 	 * @access public
-	 * @var integer
+	 * @var float
 	 */
 	public $buildTime;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $buildTimeLotSize;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $fixedBuildTime;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $planningItemCategory;
 	/**
 	 * @access public
 	 * @var float
@@ -96968,7 +98163,10 @@ class LotNumberedAssemblyItem extends Record {
 		"purchaseDescription" => "string",
 		"leadTime" => "integer",
 		"autoLeadTime" => "boolean",
-		"buildTime" => "integer",
+		"buildTime" => "float",
+		"buildTimeLotSize" => "float",
+		"fixedBuildTime" => "float",
+		"planningItemCategory" => "RecordRef",
 		"safetyStockLevel" => "float",
 		"safetyStockLevelDays" => "integer",
 		"seasonalDemand" => "boolean",
@@ -107061,6 +108259,10 @@ class TransactionLinkType {
 	/**
 	 * @var string
 	 */
+	const _transformation = "_transformation";
+	/**
+	 * @var string
+	 */
 	const _vendorBillVariance = "_vendorBillVariance";
 	/**
 	 * @var string
@@ -107596,6 +108798,24 @@ class SalesOrderHandlingMode {
 	 * @var string
 	 */
 	const _saveOnly = "_saveOnly";
+}}
+
+if (!class_exists("UsageStatus")) {
+/**
+ * UsageStatus
+ */
+class UsageStatus {
+
+	static $paramtypesmap = array(
+	);
+	/**
+	 * @var string
+	 */
+	const _active = "_active";
+	/**
+	 * @var string
+	 */
+	const _voided = "_voided";
 }}
 
 if (!class_exists("Opportunity")) {
@@ -110364,6 +111584,11 @@ class TransactionSearch extends SearchRecord {
 	public $applyingTransactionJoin;
 	/**
 	 * @access public
+	 * @var ItemSearchBasic
+	 */
+	public $assemblyJoin;
+	/**
+	 * @access public
 	 * @var AddressSearchBasic
 	 */
 	public $billingAddressJoin;
@@ -110549,19 +111774,14 @@ class TransactionSearch extends SearchRecord {
 	public $opportunityJoin;
 	/**
 	 * @access public
+	 * @var VendorSearchBasic
+	 */
+	public $outsourcingVendorJoin;
+	/**
+	 * @access public
 	 * @var TransactionSearchBasic
 	 */
 	public $paidTransactionJoin;
-	/**
-	 * @access public
-	 * @var PaymentInstrumentSearchBasic
-	 */
-	public $paymentInstrumentJoin;
-	/**
-	 * @access public
-	 * @var PaymentOptionSearchBasic
-	 */
-	public $paymentOptionJoin;
 	/**
 	 * @access public
 	 * @var PartnerSearchBasic
@@ -110572,6 +111792,16 @@ class TransactionSearch extends SearchRecord {
 	 * @var TransactionSearchBasic
 	 */
 	public $payingTransactionJoin;
+	/**
+	 * @access public
+	 * @var PaymentInstrumentSearchBasic
+	 */
+	public $paymentInstrumentJoin;
+	/**
+	 * @access public
+	 * @var PaymentOptionSearchBasic
+	 */
+	public $paymentOptionJoin;
 	/**
 	 * @access public
 	 * @var PayrollItemSearchBasic
@@ -110696,6 +111926,7 @@ class TransactionSearch extends SearchRecord {
 		"advanceToApplyAccountJoin" => "AccountSearchBasic",
 		"appliedToTransactionJoin" => "TransactionSearchBasic",
 		"applyingTransactionJoin" => "TransactionSearchBasic",
+		"assemblyJoin" => "ItemSearchBasic",
 		"billingAddressJoin" => "AddressSearchBasic",
 		"billingTransactionJoin" => "TransactionSearchBasic",
 		"binNumberJoin" => "BinSearchBasic",
@@ -110733,11 +111964,12 @@ class TransactionSearch extends SearchRecord {
 		"messagesJoin" => "MessageSearchBasic",
 		"nextApproverJoin" => "EntitySearchBasic",
 		"opportunityJoin" => "OpportunitySearchBasic",
+		"outsourcingVendorJoin" => "VendorSearchBasic",
 		"paidTransactionJoin" => "TransactionSearchBasic",
-		"paymentInstrumentJoin" => "PaymentInstrumentSearchBasic",
-		"paymentOptionJoin" => "PaymentOptionSearchBasic",
 		"partnerJoin" => "PartnerSearchBasic",
 		"payingTransactionJoin" => "TransactionSearchBasic",
+		"paymentInstrumentJoin" => "PaymentInstrumentSearchBasic",
+		"paymentOptionJoin" => "PaymentOptionSearchBasic",
 		"payrollItemJoin" => "PayrollItemSearchBasic",
 		"projectTaskJoin" => "ProjectTaskSearchBasic",
 		"purchaseOrderJoin" => "TransactionSearchBasic",
@@ -110838,6 +112070,11 @@ class TransactionSearchRow extends SearchRow {
 	 * @var TransactionSearchRowBasic
 	 */
 	public $applyingTransactionJoin;
+	/**
+	 * @access public
+	 * @var ItemSearchRowBasic
+	 */
+	public $assemblyJoin;
 	/**
 	 * @access public
 	 * @var AddressSearchRowBasic
@@ -111025,6 +112262,11 @@ class TransactionSearchRow extends SearchRow {
 	public $opportunityJoin;
 	/**
 	 * @access public
+	 * @var VendorSearchRowBasic
+	 */
+	public $outsourcingVendorJoin;
+	/**
+	 * @access public
 	 * @var TransactionSearchRowBasic
 	 */
 	public $paidTransactionJoin;
@@ -111172,6 +112414,7 @@ class TransactionSearchRow extends SearchRow {
 		"advanceToApplyAccountJoin" => "AccountSearchRowBasic",
 		"appliedToTransactionJoin" => "TransactionSearchRowBasic",
 		"applyingTransactionJoin" => "TransactionSearchRowBasic",
+		"assemblyJoin" => "ItemSearchRowBasic",
 		"billingAddressJoin" => "AddressSearchRowBasic",
 		"billingTransactionJoin" => "TransactionSearchRowBasic",
 		"binNumberJoin" => "BinSearchRowBasic",
@@ -111209,6 +112452,7 @@ class TransactionSearchRow extends SearchRow {
 		"messagesJoin" => "MessageSearchRowBasic",
 		"nextApproverJoin" => "EntitySearchRowBasic",
 		"opportunityJoin" => "OpportunitySearchRowBasic",
+		"outsourcingVendorJoin" => "VendorSearchRowBasic",
 		"paidTransactionJoin" => "TransactionSearchRowBasic",
 		"partnerJoin" => "PartnerSearchRowBasic",
 		"payingTransactionJoin" => "TransactionSearchRowBasic",
@@ -113182,6 +114426,16 @@ class Invoice extends Record {
 	public $taxDetailsList;
 	/**
 	 * @access public
+	 * @var InstallmentList
+	 */
+	public $installmentList;
+	/**
+	 * @access public
+	 * @var boolean
+	 */
+	public $overrideInstallments;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -113340,6 +114594,8 @@ class Invoice extends Record {
 		"approvalStatus" => "RecordRef",
 		"accountingBookDetailList" => "AccountingBookDetailList",
 		"taxDetailsList" => "TaxDetailsList",
+		"installmentList" => "InstallmentList",
+		"overrideInstallments" => "boolean",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -117838,6 +119094,11 @@ class Usage extends Record {
 	public $usageDate;
 	/**
 	 * @access public
+	 * @var UsageStatus
+	 */
+	public $status;
+	/**
+	 * @access public
 	 * @var string
 	 */
 	public $internalId;
@@ -117857,6 +119118,7 @@ class Usage extends Record {
 		"usageSubscriptionLine" => "RecordRef",
 		"usageQuantity" => "float",
 		"usageDate" => "dateTime",
+		"status" => "UsageStatus",
 		"internalId" => "string",
 		"externalId" => "string",
 	);
@@ -119608,6 +120870,41 @@ class PurchaseOrderItem {
 	public $createdFrom;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $assembly;
+	/**
+	 * @access public
+	 * @var boolean
+	 */
+	public $createOutsourcedWO;
+	/**
+	 * @access public
+	 * @var dateTime
+	 */
+	public $productionEndDate;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billOfMaterialsRevision;
+	/**
+	 * @access public
+	 * @var dateTime
+	 */
+	public $productionStartDate;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $assemblyUnits;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $billOfMaterials;
+	/**
+	 * @access public
 	 * @var RecordRefList
 	 */
 	public $linkedOrderList;
@@ -119653,6 +120950,13 @@ class PurchaseOrderItem {
 		"isClosed" => "boolean",
 		"taxDetailsReference" => "string",
 		"createdFrom" => "RecordRef",
+		"assembly" => "RecordRef",
+		"createOutsourcedWO" => "boolean",
+		"productionEndDate" => "dateTime",
+		"billOfMaterialsRevision" => "RecordRef",
+		"productionstartdate" => "dateTime",
+		"assemblyUnits" => "RecordRef",
+		"billOfMaterials" => "RecordRef",
 		"linkedOrderList" => "RecordRefList",
 		"customFieldList" => "CustomFieldList",
 	);
@@ -122628,6 +123932,11 @@ class InboundShipmentItems {
 	 * @var RecordRef
 	 */
 	public $incoterm;
+	/**
+	 * @access public
+	 * @var InventoryDetail
+	 */
+	public $inventoryDetail;
 
 	static $paramtypesmap = array(
 		"id" => "integer",
@@ -122649,6 +123958,7 @@ class InboundShipmentItems {
 		"shipmentItemAmount" => "float",
 		"poCurrency" => "RecordRef",
 		"incoterm" => "RecordRef",
+		"inventoryDetail" => "InventoryDetail",
 	);
 }}
 
@@ -128041,6 +129351,11 @@ class CustomerDeposit extends Record {
 	public $accountingBookDetailList;
 	/**
 	 * @access public
+	 * @var float
+	 */
+	public $salesOrderRequiredDepositDue;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -128114,6 +129429,7 @@ class CustomerDeposit extends Record {
 		"tranId" => "string",
 		"applyList" => "CustomerDepositApplyList",
 		"accountingBookDetailList" => "AccountingBookDetailList",
+		"salesOrderRequiredDepositDue" => "float",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -132133,6 +133449,16 @@ class WorkOrder extends Record {
 	public $requestedDate;
 	/**
 	 * @access public
+	 * @var dateTime
+	 */
+	public $actualProductionStartDate;
+	/**
+	 * @access public
+	 * @var dateTime
+	 */
+	public $actualProductionEndDate;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -132188,6 +133514,8 @@ class WorkOrder extends Record {
 		"subsidiary" => "RecordRef",
 		"accountingBookDetailList" => "AccountingBookDetailList",
 		"requestedDate" => "dateTime",
+		"actualProductionStartDate" => "dateTime",
+		"actualProductionEndDate" => "dateTime",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -144995,6 +146323,11 @@ class Employee extends Record {
 	public $bonusTargetPayFrequency;
 	/**
 	 * @access public
+	 * @var EmployeeCorporateCardsList
+	 */
+	public $corporateCardsList;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -145118,6 +146451,7 @@ class Employee extends Record {
 		"bonusTargetComment" => "string",
 		"bonusTargetType" => "EmployeeBonusTargetType",
 		"bonusTargetPayFrequency" => "EmployeeBonusTargetPayFrequency",
+		"corporateCardsList" => "EmployeeCorporateCardsList",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -145170,6 +146504,56 @@ class EmployeeSubscriptionsList {
 
 	static $paramtypesmap = array(
 		"subscriptions" => "EmployeeSubscriptions[]",
+		"replaceAll" => "boolean",
+	);
+}}
+
+if (!class_exists("EmployeeCorporateCards")) {
+/**
+ * EmployeeCorporateCards
+ */
+class EmployeeCorporateCards {
+	/**
+	 * @access public
+	 * @var string
+	 */
+	public $embossedName;
+	/**
+	 * @access public
+	 * @var dateTime
+	 */
+	public $expiration;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $corporateCardProfile;
+
+	static $paramtypesmap = array(
+		"embossedName" => "string",
+		"expiration" => "dateTime",
+		"corporateCardProfile" => "RecordRef",
+	);
+}}
+
+if (!class_exists("EmployeeCorporateCardsList")) {
+/**
+ * EmployeeCorporateCardsList
+ */
+class EmployeeCorporateCardsList {
+	/**
+	 * @access public
+	 * @var EmployeeCorporateCards[]
+	 */
+	public $corporateCards;
+	/**
+	 * @access public
+	 * @var boolean
+	 */
+	public $replaceAll;
+
+	static $paramtypesmap = array(
+		"corporateCards" => "EmployeeCorporateCards[]",
 		"replaceAll" => "boolean",
 	);
 }}
@@ -147457,6 +148841,11 @@ class TimeBillSearch extends SearchRecord {
 	public $taskJoin;
 	/**
 	 * @access public
+	 * @var TimeSheetSearchBasic
+	 */
+	public $timeSheetJoin;
+	/**
+	 * @access public
 	 * @var EmployeeSearchBasic
 	 */
 	public $userJoin;
@@ -147465,11 +148854,6 @@ class TimeBillSearch extends SearchRecord {
 	 * @var VendorSearchBasic
 	 */
 	public $vendorJoin;
-	/**
-	 * @access public
-	 * @var TimeSheetSearchBasic
-	 */
-	public $timeSheetJoin;
 	/**
 	 * @access public
 	 * @var CustomSearchJoin[]
@@ -147493,9 +148877,9 @@ class TimeBillSearch extends SearchRecord {
 		"projectTaskAssignmentJoin" => "ProjectTaskAssignmentSearchBasic",
 		"resourceAllocationJoin" => "ResourceAllocationSearchBasic",
 		"taskJoin" => "TaskSearchBasic",
+		"timeSheetJoin" => "TimeSheetSearchBasic",
 		"userJoin" => "EmployeeSearchBasic",
 		"vendorJoin" => "VendorSearchBasic",
-		"timeSheetJoin" => "TimeSheetSearchBasic",
 		"customSearchJoin" => "CustomSearchJoin[]",
 	);
 }}
@@ -147621,6 +149005,11 @@ class TimeBillSearchRow extends SearchRow {
 	public $taskJoin;
 	/**
 	 * @access public
+	 * @var TimeSheetSearchRowBasic
+	 */
+	public $timeSheetJoin;
+	/**
+	 * @access public
 	 * @var EmployeeSearchRowBasic
 	 */
 	public $userJoin;
@@ -147629,11 +149018,6 @@ class TimeBillSearchRow extends SearchRow {
 	 * @var VendorSearchRowBasic
 	 */
 	public $vendorJoin;
-	/**
-	 * @access public
-	 * @var TimeSheetSearchRowBasic
-	 */
-	public $timeSheetJoin;
 	/**
 	 * @access public
 	 * @var CustomSearchRowBasic[]
@@ -147657,9 +149041,9 @@ class TimeBillSearchRow extends SearchRow {
 		"projectTaskAssignmentJoin" => "ProjectTaskAssignmentSearchRowBasic",
 		"resourceAllocationJoin" => "ResourceAllocationSearchRowBasic",
 		"taskJoin" => "TaskSearchRowBasic",
+		"timeSheetJoin" => "TimeSheetSearchRowBasic",
 		"userJoin" => "EmployeeSearchRowBasic",
 		"vendorJoin" => "VendorSearchRowBasic",
-		"timeSheetJoin" => "TimeSheetSearchRowBasic",
 		"customSearchJoin" => "CustomSearchRowBasic[]",
 	);
 }}
@@ -147846,6 +149230,11 @@ class ExpenseReport extends Record {
 	public $subsidiaryTaxRegNum;
 	/**
 	 * @access public
+	 * @var boolean
+	 */
+	public $policyViolated;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -147896,6 +149285,7 @@ class ExpenseReport extends Record {
 		"taxDetailsList" => "TaxDetailsList",
 		"nexus" => "RecordRef",
 		"subsidiaryTaxRegNum" => "RecordRef",
+		"policyViolated" => "boolean",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -148039,6 +149429,11 @@ class ExpenseReportExpense {
 	public $taxDetailsReference;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $expenseAccount;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -148070,6 +149465,7 @@ class ExpenseReportExpense {
 		"receipt" => "boolean",
 		"refNumber" => "integer",
 		"taxDetailsReference" => "string",
+		"expenseAccount" => "RecordRef",
 		"customFieldList" => "CustomFieldList",
 	);
 }}
@@ -152239,18 +153635,18 @@ class PromotionCodeSearchAdvanced extends SearchRecord {
 	 * @access public
 	 * @var string
 	 */
-	public $savedSearchScriptId;
+	public $savedSearchId;
 	/**
 	 * @access public
 	 * @var string
 	 */
-	public $savedSearchId;
+	public $savedSearchScriptId;
 
 	static $paramtypesmap = array(
 		"criteria" => "PromotionCodeSearch",
 		"columns" => "PromotionCodeSearchRow",
-		"savedSearchScriptId" => "string",
 		"savedSearchId" => "string",
+		"savedSearchScriptId" => "string",
 	);
 }}
 
@@ -152425,18 +153821,18 @@ class CouponCodeSearchAdvanced extends SearchRecord {
 	 * @access public
 	 * @var string
 	 */
-	public $savedSearchScriptId;
+	public $savedSearchId;
 	/**
 	 * @access public
 	 * @var string
 	 */
-	public $savedSearchId;
+	public $savedSearchScriptId;
 
 	static $paramtypesmap = array(
 		"criteria" => "CouponCodeSearch",
 		"columns" => "CouponCodeSearchRow",
-		"savedSearchScriptId" => "string",
 		"savedSearchId" => "string",
+		"savedSearchScriptId" => "string",
 	);
 }}
 
@@ -154297,7 +155693,7 @@ if (!class_exists("NetSuiteService")) {
  */
 class NetSuiteService extends NSPHPClient {
 
-	public $generated_from_endpoint = "2020_1";
+	public $generated_from_endpoint = NS_ENDPOINT;
 	/**
 	 * Class map for wsdl=>php
 	 * @var array
@@ -154328,7 +155724,6 @@ class NetSuiteService extends NSPHPClient {
 		"StatusDetailType" => "StatusDetailType",
 		"StatusDetailCodeType" => "StatusDetailCodeType",
 		"FaultCodeType" => "FaultCodeType",
-		"Passport" => "Passport",
 		"TokenPassportSignature" => "TokenPassportSignature",
 		"TokenPassport" => "TokenPassport",
 		"ChangePassword" => "ChangePassword",
@@ -154931,6 +156326,7 @@ class NetSuiteService extends NSPHPClient {
 		"CustomerNegativeNumberFormat" => "CustomerNegativeNumberFormat",
 		"CustomerNumberFormat" => "CustomerNumberFormat",
 		"BillingAccountFrequency" => "BillingAccountFrequency",
+		"JobSchedulingMethod" => "JobSchedulingMethod",
 		"Subscriptions" => "Subscriptions",
 		"SubscriptionsList" => "SubscriptionsList",
 		"Contact" => "Contact",
@@ -155514,6 +156910,7 @@ class NetSuiteService extends NSPHPClient {
 		"CashSalePaymentOperation" => "CashSalePaymentOperation",
 		"SalesOrderPaymentOperation" => "SalesOrderPaymentOperation",
 		"SalesOrderHandlingMode" => "SalesOrderHandlingMode",
+		"UsageStatus" => "UsageStatus",
 		"Opportunity" => "Opportunity",
 		"OpportunitySalesTeam" => "OpportunitySalesTeam",
 		"OpportunitySalesTeamList" => "OpportunitySalesTeamList",
@@ -155891,6 +157288,8 @@ class NetSuiteService extends NSPHPClient {
 		"Employee" => "Employee",
 		"EmployeeSubscriptions" => "EmployeeSubscriptions",
 		"EmployeeSubscriptionsList" => "EmployeeSubscriptionsList",
+		"EmployeeCorporateCards" => "EmployeeCorporateCards",
+		"EmployeeCorporateCardsList" => "EmployeeCorporateCardsList",
 		"EmployeeAddressbook" => "EmployeeAddressbook",
 		"EmployeeAddressbookList" => "EmployeeAddressbookList",
 		"EmployeeRoles" => "EmployeeRoles",

@@ -1,6 +1,8 @@
 <?php
 
 require_once "NSconfig.php";
+require_once 'NSTokenPasswordGenerator.php';
+
 
 function arrayValuesAreEmpty ($array)
 {
@@ -177,19 +179,14 @@ interface iTokenPassportGenerator {
 }
 
 class NSPHPClient {
-    private $nsversion = "2020_1";    
+    private $nsversion = NS_ENDPOINT;    
 
     public $client = null;
-    public $passport = null;
-    public $applicationInfo = null;
     public $tokenPassport = null;    
     private $soapHeaders = array();
-    private $userequest = true;
-    private $usetba = false;
     protected $classmap = null;
     public $generated_from_endpoint = "";
     protected $tokenGenerator = null;
-
 
     protected function __construct($wsdl=null, $options=array()) {
         
@@ -241,39 +238,12 @@ class NSPHPClient {
         //$options['stream_context'] = stream_context_create($context);
 
         $options['user_agent'] =  $httpheaders;
-        if (defined('NS_ACCOUNT') && defined('NS_EMAIL') && defined('NS_PASSWORD')) {
-            $this->setPassport(NS_ACCOUNT, NS_EMAIL, defined('NS_ROLE')?NS_ROLE:null, NS_PASSWORD);
-        }
-        if (defined('NS_APPID')) {
-            $this->setApplicationInfo(NS_APPID);
-        }
+
         $this->client = new SoapClient($wsdl, $options);
     }
 
-    public function setPassport($nsaccount, $nsemail, $nsrole, $nspassword) {
-        $this->passport = new Passport();
-        $this->passport->account = $nsaccount;
-        $this->passport->email = $nsemail;
-        $this->passport->password = $nspassword;
-        if (isset($nsrole)) {			
-            $this->passport->role = new RecordRef();
-            $this->passport->role->internalId = $nsrole;
-        }
-    }
-    
-
-    public function setApplicationInfo($nsappid) {
-        $this->applicationInfo = new ApplicationInfo();
-        $this->applicationInfo->applicationId = $nsappid;
-        $this->addHeader("applicationInfo", $this->applicationInfo);
-    }
-    
     protected function setTokenPassport($tokenPassport) {
         $this->tokenPassport = $tokenPassport;
-    }
-
-    public function useRequestLevelCredentials($option) {
-         $this->userequest = $option;
     }
 
     public function setPreferences ($warningAsError = false, $disableMandatoryCustomFieldValidation = false, $disableSystemNotesForCustomFields = false,  $ignoreReadOnlyFields = false, $runServerSuiteScriptAndTriggerWorkflows = null)    
@@ -314,29 +284,17 @@ class NSPHPClient {
     }
 
     protected function makeSoapCall($operation, $parameter) {
-        if ($this->userequest) {
-            // use request level credentials, add passport as a SOAP header          
-            $this->clearHeader("tokenPassport");            
-            $this->addHeader("passport", $this->passport);
-            $this->addHeader("applicationInfo", $this->applicationInfo);
-            // SoapClient, even with keep-alive set to false, keeps sending the JSESSIONID cookie back to the server on subsequent requests. Unsetting the cookie to prevent this.
-            $this->client->__setCookie("JSESSIONID");                    
-        } else if ($this->usetba) {
-            if (isset($this->tokenGenerator)) {
-                $token = $this->tokenGenerator->generateTokenPassport();
-                $this->setTokenPassport($token);
-            }
+            if (!isset($this->tokenGenerator)) {
+                $generator = new MyTokenPassportGenerator();
+                $this->tokenGenerator = $generator;
+            }    
+            $token = $this->tokenGenerator->generateTokenPassport();
+            $this->setTokenPassport($token);
+
             $this->addHeader("tokenPassport", $this->tokenPassport);
-            $this->clearHeader("passport");
-            $this->clearHeader("applicationInfo");
-        } else {
-            $this->clearHeader("passport");
-            $this->clearHeader("tokenPassport");
-            $this->addHeader("applicationInfo", $this->applicationInfo);            
-        }
 
         $response = $this->client->__soapCall($operation, array($parameter), NULL, $this->soapHeaders);
-		
+        
         if ( file_exists(dirname(__FILE__) . '/nslog') ) {
             // log the request and response into the nslog directory. Code taken from PHP toolkit
             // REQUEST
@@ -380,16 +338,6 @@ class NSPHPClient {
 	
     public function setHost($hostName) {
         return $this->client->__setLocation($hostName . "/services/NetSuitePort_" . NS_ENDPOINT);
-    }
-	
-    public function setTokenGenerator(iTokenPassportGenerator $generator = null) {
-        $this->tokenGenerator = $generator;
-        if ($generator != null) {
-          $this->usetba = true;
-          $this->userequest = false;
-        } else {
-          $this->usetba = false;
-        }
     }
 }
 
