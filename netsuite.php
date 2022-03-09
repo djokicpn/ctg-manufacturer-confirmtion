@@ -78,7 +78,9 @@ if(intval($confirmed)!==1) {
 		$mail = new PHPMailer(true);
 		$mail->setFrom('admin@ctg.us', 'CTG admin');
 		$mail->addAddress('support@ctg.us', 'Aleksandar Djokic');
-		$mail->addCC('isis@ctg.us','Isis Dorado');
+		$mail->addCC('logistics@ctg.us','Logistics');
+		$mail->addCC('claudia@ctg.us','Claduia');
+		$mail->addCC('christopher@ctg.us','Christopher');
 		$mail->addCC('orders@ctg.us','CTG Orders');
 		// $mail->addCC('shaun@ctg.us','Kristin Arrowsmith');
 		$mail->isHTML(true);

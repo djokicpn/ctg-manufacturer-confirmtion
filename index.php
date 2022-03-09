@@ -89,7 +89,6 @@ $gr->baseRef->type = "purchaseOrder";
 
 $getResponse = $service->get($gr);
 
-var_dump($getResponse);
 $poRecord = $getResponse->readResponse->record;
 
 $customFieldListListArray = $poRecord->customFieldList->customField;
